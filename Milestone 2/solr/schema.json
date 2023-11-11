@@ -69,14 +69,12 @@
     {
       "name": "summary",
       "type": "text",
-      "indexed": true,
-      "multiValued": true
+      "indexed": true
     },
     {
       "name": "text",
       "type": "text",
-      "indexed": true,
-      "multiValued": true
+      "indexed": true
     }
   ]
 }

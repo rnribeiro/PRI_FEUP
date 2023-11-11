@@ -24,5 +24,8 @@ curl -X POST -H 'Content-type:application/json' \
 --data-binary "@schema.json" \
 http://localhost:8983/solr/books/schema
 
+# reload core
+curl "http://localhost:8983/solr/admin/cores?action=RELOAD&core=books"
+
 # Post the data to Solr using the 'docker exec' command
 docker exec solr bin/post -c books ../../data/books_data_reviews.json

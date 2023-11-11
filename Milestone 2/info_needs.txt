@@ -1,0 +1,7 @@
+Retrieve books that talk about artificial intelligence.
+
+Retrieve books that support fights against racism.
+
+Retrieve novels set in post-apocalyptic worlds.
+
+Retrieve books related to American Civil War.

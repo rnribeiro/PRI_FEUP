@@ -29,6 +29,11 @@
   ],
   "add-field": [
     {
+      "name": "book_id",
+      "type": "int",
+      "indexed": true
+    },
+    {
       "name": "book_title",
       "type": "text",
       "indexed": true

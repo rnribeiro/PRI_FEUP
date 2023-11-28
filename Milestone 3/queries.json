@@ -1,0 +1,97 @@
+{
+    "information_needs": [
+      {
+        "id": "IN_1",
+        "query": "artificial intelligence",
+        "qrels_file": "evaluation/IN_1/qrels.txt",
+        "systems": [
+          {
+            "name": "base_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=artificial%20intelligence&qf=book_title%20reviews.text%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title reviews.text reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "enhanced_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=artificial%20intelligence&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          }
+        ]
+      },
+      {
+        "id": "IN_2",
+        "query": "fight fights against racism discrimination",
+        "qrels_file": "evaluation/IN_2/qrels.txt",
+        "systems": [
+          {
+            "name": "base_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=fight%20fights%20against%20racism%20discrimination&qf=book_title%20reviews.text%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title reviews.text reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "enhanced_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=fight%20fights%20against%20racism%20discrimination&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          }
+        ]
+      },
+      {
+        "id": "IN_3",
+        "query": "novel AND post-apocalyptic",
+        "qrels_file": "evaluation/IN_3/qrels.txt",
+        "systems": [
+          {
+            "name": "base_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=novel%20AND%20post-apocalyptic&qf=book_title%20reviews.text%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title reviews.text reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "enhanced_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=novel%20AND%20post-apocalyptic&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          }
+        ]
+      },
+      {
+        "id": "IN_4",
+        "query": "",
+        "qrels_file": "evaluation/IN_4/qrels.txt",
+        "systems": [
+          {
+            "name": "base_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=%22american%20civil%20war%22&qf=book_title%20reviews.text%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title reviews.text reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "enhanced_system",
+            "query_url": "http://localhost:8983/solr/books/select?defType=edismax&indent=true&q.op=OR&q=%22american%20civil%20war%22&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

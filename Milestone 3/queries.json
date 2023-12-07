@@ -71,7 +71,7 @@
       },
       {
         "id": "IN_4",
-        "query": "",
+        "query": "american civil war",
         "qrels_file": "evaluation/IN_4/qrels.txt",
         "systems": [
           {

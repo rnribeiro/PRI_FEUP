@@ -12,7 +12,7 @@
           { "class": "solr.LowerCaseFilterFactory" },
           { "class": "solr.EdgeNGramFilterFactory", "minGramSize": 3, "maxGramSize": 10 },
           { "class": "solr.PorterStemFilterFactory" },
-          { "class" :"solr.SynonymGraphFilterFactory", "synonyms": "synonyms.txt" }
+          { "class" :"solr.SynonymGraphFilterFactory", "synonyms": "synonyms.txt", "ignoreCase": true, "expand": false}
         ]
       },
       "queryAnalyzer": {
@@ -22,9 +22,9 @@
         "filters": [
           { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
           { "class": "solr.LowerCaseFilterFactory" },
-            { "class": "solr.EdgeNGramFilterFactory", "minGramSize": 3, "maxGramSize": 10 },
+          { "class": "solr.EdgeNGramFilterFactory", "minGramSize": 3, "maxGramSize": 10 },
           { "class": "solr.PorterStemFilterFactory" },
-          { "class" :"solr.SynonymGraphFilterFactory", "synonyms": "synonyms.txt" }
+          { "class" :"solr.SynonymGraphFilterFactory", "synonyms": "synonyms.txt", "ignoreCase": true, "expand": false}
         ]
       }
     },

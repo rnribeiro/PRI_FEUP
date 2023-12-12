@@ -1,5 +1,5 @@
 # Step 1: Run Solr Docker container
-docker run -p 8983:8983 --name solr -v "$(pwd)":/data -d solr:9.3
+# docker run -p 8983:8983 --name solr -v "$(pwd)":/data -d solr:9.3
 
 # Step 2: Create Solr core
 docker exec solr bin/solr create_core -c books_m3_synonyms

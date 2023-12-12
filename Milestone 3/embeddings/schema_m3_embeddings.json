@@ -9,9 +9,7 @@
         },
         "filters": [
           { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
-          { "class": "solr.LowerCaseFilterFactory" },
-          { "class": "solr.EdgeNGramFilterFactory", "minGramSize": 3, "maxGramSize": 10 },
-          { "class": "solr.PorterStemFilterFactory" }
+          { "class": "solr.LowerCaseFilterFactory" }
         ]
       },
       "queryAnalyzer": {
@@ -20,9 +18,7 @@
         },
         "filters": [
           { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
-          { "class": "solr.LowerCaseFilterFactory" },
-            { "class": "solr.EdgeNGramFilterFactory", "minGramSize": 3, "maxGramSize": 10 },
-          { "class": "solr.PorterStemFilterFactory" }
+          { "class": "solr.LowerCaseFilterFactory" }
         ]
       }
     },

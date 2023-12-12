@@ -22,10 +22,18 @@
             }
           },
           {
-            "name": "sysnonyms_system",
+            "name": "synonyms_system",
             "query_url": "http://localhost:8983/solr/books_m3_synonyms/select?defType=edismax&indent=true&q.op=OR&q=artificial%20intelligence&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
             "query_params": {
               "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "keywords_system",
+            "query_url": "",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories keywords^5",
               "rows": 40
             }
           }
@@ -51,6 +59,22 @@
               "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
               "rows": 40
             }
+          },
+          {
+            "name": "synonyms_system",
+            "query_url": "http://localhost:8983/solr/books_m3_synonyms/select?defType=edismax&indent=true&q.op=OR&q=fight%20fights%20against%20racism%20discrimination&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "keywords_system",
+            "query_url": "",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories keywords^5",
+              "rows": 40
+            }
           }
         ]
       },
@@ -74,6 +98,22 @@
               "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
               "rows": 40
             }
+          },
+          {
+            "name": "synonyms_system",
+            "query_url": "http://localhost:8983/solr/books_m3_synonyms/select?defType=edismax&indent=true&q.op=OR&q=novel%20AND%20post-apocalyptic&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "keywords_system",
+            "query_url": "",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories keywords^5",
+              "rows": 40
+            }
           }
         ]
       },
@@ -95,6 +135,22 @@
             "query_url": "http://localhost:8983/solr/books_m2/select?defType=edismax&indent=true&q.op=OR&q=%22american%20civil%20war%22&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
             "query_params": {
               "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "synonyms_system",
+            "query_url": "http://localhost:8983/solr/books_m3_synonyms/select?defType=edismax&indent=true&q.op=OR&q=%22american%20civil%20war%22&qf=book_title%5E2%20reviews.text%5E2%20reviews.summary%20description%20categories&rows=40&useParams=",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories",
+              "rows": 40
+            }
+          },
+          {
+            "name": "keywords_system",
+            "query_url": "",
+            "query_params": {
+              "qf": "book_title^2 reviews.text^2 reviews.summary description categories keywords^5",
               "rows": 40
             }
           }

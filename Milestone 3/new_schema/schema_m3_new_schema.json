@@ -21,7 +21,7 @@
         "filters": [
           { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
           { "class": "solr.LowerCaseFilterFactory" },
-            { "class": "solr.EdgeNGramFilterFactory", "minGramSize": 3, "maxGramSize": 10 },
+          { "class": "solr.EdgeNGramFilterFactory", "minGramSize": 3, "maxGramSize": 10 },
           { "class": "solr.PorterStemFilterFactory" }
         ]
       }
@@ -84,12 +84,6 @@
       "name": "text",
       "type": "text",
       "indexed": true
-    },
-    {
-      "name" : "keywords",
-      "type" : "text",
-      "indexed" : true,
-      "multiValued" : true
     }
   ]
 }

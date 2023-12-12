@@ -1,0 +1,91 @@
+{
+  "add-field-type": [
+    {
+      "name": "text",
+      "class": "solr.TextField",
+      "indexAnalyzer": {
+        "tokenizer": { 
+          "class": "solr.StandardTokenizerFactory"
+        },
+        "filters": [
+          { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
+          { "class": "solr.LowerCaseFilterFactory" }
+        ]
+      },
+      "queryAnalyzer": {
+        "tokenizer": { 
+          "class": "solr.StandardTokenizerFactory" 
+        },
+        "filters": [
+          { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
+          { "class": "solr.LowerCaseFilterFactory" }
+        ]
+      }
+    },
+    {
+      "name": "int",
+      "class": "solr.TrieIntField"
+    }
+  ],
+  "add-field": [
+    {
+      "name": "book_id",
+      "type": "int",
+      "indexed": true
+    },
+    {
+      "name": "book_title",
+      "type": "text",
+      "indexed": true
+    },
+    {
+      "name": "description",
+      "type": "text",
+      "indexed": true
+    },
+    {
+      "name": "authors",
+      "type": "text",
+      "indexed": true,
+      "multiValued": true
+    },
+    {
+      "name": "publisher",
+      "type": "text",
+      "indexed": true
+    },
+    {
+      "name": "categories",
+      "type": "text",
+      "indexed": true,
+      "multiValued": true
+    },
+    {
+      "name": "publishedYear",
+      "type": "int",
+      "indexed": true
+    },
+    {
+      "name": "reviews",
+      "type": "text",
+      "indexed": true,
+      "multiValued": true
+    },
+    {
+      "name": "summary",
+      "type": "text",
+      "indexed": true
+    },
+    {
+      "name": "text",
+      "type": "text",
+      "indexed": true
+    },
+    {
+      "name" : "keywords",
+      "type" : "text",
+      "indexed" : true,
+      "multiValued" : true
+    }
+  ]
+}

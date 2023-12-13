@@ -19,7 +19,25 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #50808E;
   margin-top: 60px;
 }
 </style>
+
+<!--
+############COLORS################
+Bone
+#DDD8C4
+
+Celadon
+#A3C9A8
+
+Cambridge Blue
+#84B59F
+
+Cambridge Blue
+#69A297
+
+Air Force Blue
+#50808E
+-->

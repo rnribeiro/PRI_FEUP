@@ -27,6 +27,7 @@ async def solr_request(request: Request):
         params = json.loads(jsondata['data'])
         # Send a POST request to Solr
         response = requests.get(f"{SOLR_URL}/books_m2/select", params=params['params'])
+        print(response)
 
         # Check if the request was successful
         if response.status_code == 200:

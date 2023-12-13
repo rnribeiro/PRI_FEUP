@@ -8,4 +8,4 @@ docker exec solr bin/solr create_core -c books_m3_embeddings
 curl -X POST -H "Content-type:application/json" --data-binary "@schema_m3_embeddings.json" http://localhost:8983/solr/books_m3_embeddings/schema
 
 # Step 4: Post data to Solr core
-docker exec solr bin/post -c books_m3_embeddings ../../data/books_data_reviews_sample_embeddings.json
+docker exec solr bin/post -c books_m3_embeddings ../../data/books_data_reviews_embeddings.json

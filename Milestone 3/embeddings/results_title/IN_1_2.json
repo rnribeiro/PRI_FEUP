@@ -1,225 +1,394 @@
 [
     {
-        "book_title": "Experimenter Effects in Behavioral Research",
+        "book_title": "Artificial Intelligence: The very Idea",
+        "description": "\"Machines who think\u2014how utterly preposterous,\" huff beleaguered humanists, defending their dwindling turf. \"Artificial Intelligence\u2014it's here and about to surpass our own,\" crow techno-visionaries, proclaiming dominion. It's so simple and obvious, each side maintains, only a fanatic could disagree. Deciding where the truth lies between these two extremes is the main purpose of John Haugeland's marvelously lucid and witty book on what artificial intelligence is all about. Although presented entirely in non-technical terms, it neither oversimplifies the science nor evades the fundamental philosophical issues. Far from ducking the really hard questions, it takes them on, one by one. Artificial intelligence, Haugeland notes, is based on a very good idea, which might well be right, and just as well might not. That idea, the idea that human thinking and machine computing are \"radically the same,\" provides the central theme for his illuminating and provocative book about this exciting new field. After a brief but revealing digression in intellectual history, Haugeland systematically tackles such basic questions as: What is a computer really? How can a physical object \"mean\" anything? What are the options for computational organization? and What structures have been proposed and tried as actual scientific models for intelligence? In a concluding chapter he takes up several outstanding problems and puzzles\u2014including intelligence in action, imagery, feelings and personality\u2014and their enigmatic prospects for solution.",
         "authors": [
-            "Robert Rosenthal"
+            "John Haugeland"
         ],
         "categories": [
             "Psychology"
         ],
-        "publishedYear": 1976,
-        "book_id": 169173
+        "publishedYear": 1989,
+        "reviews.summary": [
+            "A great exposition of the fundamentals and more.",
+            "Don't judge this book by its cover...",
+            "The Classic Text on Traditional Artificial Intelligence",
+            "THE VERY BEST ON CLASSICAL AI"
+        ],
+        "book_id": 193152,
+        "reviews.text": [
+            "This is a great exposition of the fundamental notions involved in the philosophy of AI. While at first look may appear like a good undergraduate read, it is, in fact, quite subtle and deep in most of the material it touches. Great scholarship.",
+            "Don't judge this book by its cover-or at least by its title. Haugeland's Artificial Intelligence: The Very Idea does not adequately serve as a general introduction to the conceptual underpinnings and philosophical background of the quest to create an artificial mind. Rather, it focuses on one specific approach to how natural and man-made thought works: \"thinking...essentially is rational manipulation of mental symbols.\" (p. 4) Haugeland plows forward with this as his core assumption, barely noting that some AI researchers see thought from a very different perspective (for example, the connectionists) and others find the whole enterprise fraught with theoretical difficulty (such as Dreyfus).So Haugeland's story is that of a particular theory of mind that held predominance for several decades (what the author himself dubs \"good, old-fashioned artificial intelligence\" or \"GOFAI\", p. 112) but is now gradually being superceded. His introduction to this story concludes with a description of the Turing test and a justification for its use, and a brief statement of the efficacy of describing a system in different-even contradictory-ways through different \"organizational levels\". (p. 9) Of all the ideas presented in the book, this last one has the greatest promise for applicability beyond GOFAI.Chapter 1, \"The Saga of the Modern Mind\", is a condensed bit of intellectual history. Haugeland introduces the philosophical children of the Copernican revolution-Hobbes, Descartes, and Hume-and the ways they grappled with understanding the world of the mental with the ideas that had proven so effective in the physical sciences. We soon encounter the \"paradox of mechanical reason\": if reason is the meaningful manipulation of symbols, and meanings are not physical entities, then how can machines manipulate them? (p. 39)Chapter 2 serves as an extended definition of \"Automatic Formal Systems\", that is, computers. This material is the most challenging in the text, but the important concepts (formal games, digital systems, medium independence, etc.), are well-described, except for finite playability. The students I tutored through this work found it impossible to determine just what point was being made, and so did I.How does one assign meanings-connections to the \"real\", outside world-to the symbols that a computer manipulates? This question is taken up in Chapter 3, \"Semantics\"-and answered, it seems, by sleight-of-hand. Haugeland gives to this the name \"the formalist's motto\": \"if you take care of the syntax, the semantics will take care of itself\". (p. 106) Neither I nor my students found this simple resolution at all satisfying. In every example of a formal game that the author presents, whatever semantic interpretation it has is provided from outside the system.Chapter 4, \"Computer Architecture\", charts the milestones of computing. It begins with the analytical engine, and lauds Babbage's single-handed invention of programming without noting, however, that a human mind does not resemble the tabula rasa of a computer's memory bank. Moving quickly to the twentieth century, we get insightful descriptions of Turing machines, von Neumann machines (which turn out to be the kind of computer we are accustomed to), the mind-bending tree-structured LISP machines, and Newell's pragmatic production machines.Chapter 5, \"Real Machines\", might be better titled \"Real Problems\". Haugeland presents some of the brick walls that AI research has run into. These can be grouped into the phenomenon of the combinatorial explosion: in order to interact with the real world in a manner that demonstrates \"common sense\", an AI must have access to an impossibly large store of information (while accessing what it needs in due time), and be able to consider an equally impossibly large set of potential courses of action. (p. 178) Methods to restrict what the AI has to consider, such as the focus on \"micro-worlds\", result in a system with no sense. Haugeland acknowledges these problems, and offers nothing but hope in scientific and technological progress to answer them.Chapter 6, \"Real People\", develops means by which the sense that humans exhibit, and machines are far from realizing. Dennett's intentional stances and Grice's conversational implicatures are intelligent-if partial-characterizations of perspicuous reasoning. They are, however, frustratingly slippery for computer programmers, so it's not surprising that Haugeland, with some exasperation, groups them together under the \"nonasininity canon\": \"An enduring system makes sense to the extent that, as understood, it isn't making [a rear] of itself.\" (p. 219) I feel that, if a reader has followed the author this far, then he or she deserves better than this.Yet Haugeland and his colleagues are bound to feel frustration. Computers are electromechanical in nature, while humans are neurochemical. Computers can engage in numerical calculation with speed and precision, while most people find mathematics to be their most difficult school subject. Computers are tools that we devised to assist us. Human behavior was forged in the four-billion cauldron of evolution, and psychologists have barely begun to sort out the seething stew of vestigial loves, hates, and motivations that shape our behavior. And honest cognitive science will admit that humans and supercomputers are each masters of two separate, very different worlds. At the end, Haugeland finally admits this possibility-without contemplating the alternatives to the computation theory of might that this possibility demands.",
+            "The state of play in artificial intelligence has changed considerably since this book was written in the mid-80's, but that doesn't mean that this book has become outdated. Far from it. The subsequent changes in artificial intelligence have merely served to highlight the fact that the value of this book is not in its discussion of 80's technology. The value of this book is that it articulates, motivates, and then critiques an idea at the core of philosophical thinking about mindedness over the past 400 years: namely, the idea that cognition consists in the manipulation of inner representations. Although Haugeland himself went on to offer a radically different account of mindedness, according to which minds are essentially embodied and embedded, the value of this book does not derive from its articulation of an original view. Rather, the value of it derives from the rigor with which Haugeland motivates the attractions of a philosophical view that he himself does not accept.Buy this book if you want to understand the underlying philosophical motivations for the widespread view that thoughts are inner representations. Buy Haugeland's collection of essays, entitled \"Having Thought\", if you want to engage with Haugeland's own alternative view of the mind.",
+            "This is the very best book on classical AI. However, there's a catch, as classical AI has many pitfalls, such as the frame problem or the symbol grounding problem. But there are ways to overcome these pitfalls, and if you want to see what's really hot in AI today you should check out Douglas Hofstadter's Fluid Concepts and Creative Analogies."
+        ]
     },
     {
-        "book_title": "Cellular Automata Machines: A New Environment for Modeling (Scientific Computation)",
-        "description": "Theory of Computation -- Computation by Abstracts Devices.",
+        "book_title": "Aerospace Intelligence Training",
+        "description": "With the emergence of smart technology and automated systems in today\u2019s world, artificial intelligence (AI) is being incorporated into an array of professions. The aviation and aerospace industry, specifically, is a field that has seen the successful implementation of early stages of automation in daily flight operations through flight management systems and autopilot. However, the effectiveness of aviation systems and the provision of flight safety still depend primarily upon the reliability of aviation specialists and human decision making. The Handbook of Research on Artificial Intelligence Applications in the Aviation and Aerospace Industries is a pivotal reference source that explores best practices for AI implementation in aviation to enhance security and the ability to learn, improve, and predict. While highlighting topics such as computer-aided design, automated systems, and human factors, this publication explores the enhancement of global aviation security as well as the methods of modern information systems in the aeronautics industry. This book is ideally designed for pilots, scientists, engineers, aviation operators, air crash investigators, teachers, academicians, researchers, and students seeking current research on the application of AI in the field of aviation.",
         "authors": [
-            "Tommaso Toffoli, Norman Margolus"
+            "Shmelova, Tetiana, Sikirda, Yuliya, Sterenharz, Arnold"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2019,
+        "reviews.summary": [
+            "Bring It Back",
+            "A Learning Experience"
+        ],
+        "reviews.text": [
+            "It's too bad that this title is on hold at the moment. I purchased it about a year ago for my nephew and we were just talking about it the other day. He said that it really helped him get ready for technical school. He said he had a huge leg up on the rest of the class. This spring when my other nices and nephews graduate from high school I think I may get them some similar books that match their interests. Good job, guys!",
+            "I'm interested in a lot of different things, but often find it hard to find decent resources to learn about new stuff.I bought this one on a lark to see if it would make me think - and it did.What I learned is that aerospace intelligence is not as difficult as you would think it is. I'm happy to say I know more now than before I ordered, which is more than I can say about a lot of products I've bought.I'm going to order more disks like this."
+        ],
+        "book_id": 45501
+    },
+    {
+        "book_title": "Artificial Intelligence and Scientific Method",
+        "description": "Artificial Intelligence and Scientific Method examines the remarkable advances made in the field of AI over the past twenty years, discussing their profound implications for philosophy. Taking a clear, non-technical approach, Donald Gillies shows how current views on scientific method are challenged by this recent research, and suggests a new framework for the study of logic. Finally, he draws on work by such seminal thinkers as Bacon, G\u00f6del, Popper, Penrose, and Lucas, to address the hotly contested question of whether computers might become intellectually superior to human beings.",
+        "authors": [
+            "Donald Gillies"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1996,
+        "reviews.summary": [
+            "A prelude to fully automated scientific discovery"
+        ],
+        "book_id": 9947,
+        "reviews.text": [
+            "This book is interesting in that it attempts to cast questions of the scientific method into the language and concepts of artificial intelligence (AI), instead of in terms of philosophy, as is usually done. The two main camps of philosophy of science, namely inductivism, represented by Sir Francis Bacon, and that of falsificationism, represented by Sir Karl Popper are both discussed in the context of AI. Two examples, one dealing with the discovery of the laws of planetary motion due to Johannes Kepler, and the discovery of sulphonamide drugs, are chosen to illustrate the author's ideas. The author asserts that these examples do not entirely agree with either Bacon or Popper. Kepler used an \"intuitive induction\" which involved human insight and creativity, which is quite different from the \"mechanical induction\" of Bacon. The discovery of sulphonamide drugs was a more \"mechanized\" process, but the author believes it was more of a \"mechanical falsification\" rather than Baconian induction. In addition, this discovery, he asserts, has introduced the concept of heuristics, which of course is ubiquitous in artificial intelligence.The author is certainly correct in his belief that Baconian induction, as outlined in the Novum Organum of 1620, has been applied only sparingly in the development of science. He believes that this is changing though thanks to the advent of machine intelligence. Indeed, the existence of machines able to recommend and design experiments, analyze the data from these experiments, and then formulate hypotheses to explain the data was reported just weeks ago in a major scientific journal. These machines were based on inductive logic programming in the guise of a language called PROGOL, which performs relational learning and was just getting started as this book went to press. The author does discuss relational learning in this book, and details algorithms for machine learning that are based on inductive rules of inference and background knowledge and data in these rules. He also discusses the role of testing and falsification in the actual process of using inductive rules of inference in order to produce the final result.The specific machine learning algorithms that the author does discuss are ID3 and GOLEM, with ID3 being a \"top-down\" and attribute-based learning algorithm, and GOLEM a \"bottom-up\" and relational learning algorithm. ID3 makes use of rules that take the from of decision trees, begins with simple and general rules, and these are then modified or refuted to produce more specific generalizations. The author discusses the role that these programs have in negating the Popperian assertion that induction \"is a myth\". Even more interesting is the author's belief that these programs in fact illustrate the \"mechanical\" principles of induction that Bacon laid down in 1620. In fact, he states that he has been unable to find an example of the use of Baconian \"mechanical\" induction in the history of science before the advent of these languages.Naturally logic programming and its main example PROLOG will arise in any discussion of machine intelligence, and it does so here. PROLOG as a language based on nonmonotonic logic is discussed in detail along with the \"closed world assumption\", this being done in order to construct a \"new framework for logic\". This framework involves viewing logic as made up not only of inferences but also a \"control component\", the latter of which follows either its own autonomous control decisions, or those provided by the programmer. PROLOG is viewed as a language that introduces control into deductive logic, and its development an example of a process that replaced \"craft skill by mechanization\". Generation (and checking) of proofs in mathematics is given as an example of this craft skill, having been done to date by trained mathematicians who have the `craft skills' to carry this out. PROLOG is able to construct proofs via its control mechanism and has both a declarative and procedural interpretation. The author shows in what sense PROLOG can lead to what he calls a `new framework for logic', and consequently as evidence that logic is really empirical, and not `a priori' as is typically assumed. The empiricism of logic was argued in another context, namely that of quantum mechanics, but the author believes that `quantum logic' has failed to support the empiricism of logic. PROLOG, he asserts, is a better example of the empirical nature of logic.The author also addresses the possibility of constructing a detailed example of inductive logic, which he believes was not done in traditional circles of logic, these being concerned mostly with deductive inference. After discussing the history of the divergence between the schools of deductive and inductive logic, he expands further on his paradigm of logic as being `inference + control' in showing how ideas from conformation theory can be used as a control mechanism in deductive logic. To illustrate just how this could be done, the author draws on the work of J. Cussens, A. Hunter, and A. Srinivasan in a class of nonmonotonic logics called `prioritized' logics. These authors show that a prioritized logic will allow the inference of formulas that are `most preferred\", with preferences being accomplished relative to some preference criterion. The author shows how to use relative-frequencies to estimate conformation values. What is most interesting about the work of these three authors, and the author points this out emphatically, is that it may permit the differentiating of one system of logic from another using experimental criteria in the context of a particular application. The author discusses how these authors were able to carry out the empirical testing of different systems of logic using the GOLEM programming language. An explicit example in bioinformatics is discussed, and the author concludes from this example that the choice of logic will depend on the interests of a particular user. Empirical evidence can thus decide on the logic used in a domain, and this choice may also depend on the requirements of the user.I did not read the last chapter of the book, so its review will be omitted."
+        ]
+    },
+    {
+        "book_title": "38 Basic Joseki (Elementary Go Series Vol. 2)",
+        "description": "The papers in this volume comprise the refereed proceedings of the conference \u2018 Artificial Intelligence in Theory and Practice\u2019 (IFIP AI 2008), which formed part of the 20th World Computer Congress of IFIP, the International Federation for Information Processing (WCC-2008), in Milan, Italy in September 2008. The conference is organised by the IFIP Technical Committee on Artificial Intelligence (Technical Committee 12) and its Working Group 12.5 (Artificial Intelligence Applications). All papers were reviewed by at least two members of our Program Committee. Final decisions were made by the Executive Program Committee, which comprised John Debenham (University of Technology, Sydney, Australia), Ilias Maglogiannis (University of Aegean, Samos, Greece), Eunika Mercier-Laurent (KIM, France) and myself. The best papers were selected for the conference, either as long papers (maximum 10 pages) or as short papers (maximum 5 pages) and are included in this volume. The international nature of IFIP is amply reflected in the large number of countries represented here. The conference also featured invited talks by Prof. Nikola Kasabov (Auckland University of Technology, New Zealand) and Prof. Lorenza Saitta (University of Piemonte Orientale, Italy). I should like to thank the conference chair, John Debenham for all his efforts and the members of our program committee for reviewing papers to a very tight deadline.",
+        "authors": [
+            "Max Bramer"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2010,
+        "reviews.summary": [
+            "for somewhat advanced beginner, on opening play",
+            "The Fundamentals"
+        ],
+        "reviews.text": [
+            "Well written introduction to opening moves in the corners for players who have progresed beyond the earliest beginner stage. If you are beginning to have a little feeling for the game instead of feeling totally confused, this is a book for you. These opening sequences give an even result locally. The authors (a Japanese and an American professional) discuss how each opening sequence interacts with other areas of the board.",
+            "I found this a good introductory work to joseki. It did well in that it addressed the principles behind what was going on. As so many others, I would warn earlier beginners (20kyu or less) to wait before studying joseki. Then, when they do, they must STUDY joseki, not just memorize.I would suppose my only two complaints are that the authors gave not enough attention to what one may do if the opponent steps away from best play. Also, like many strong players, there was no thought given to showing why a final position was balanced or may be good for black or for white. Still, a good book overall."
+        ],
+        "book_id": 110016
+    },
+    {
+        "book_title": "Computation and Human Experience (Learning in Doing: Social, Cognitive and Computational Perspectives)",
+        "description": "By paying close attention to the metaphors of artificial intelligence and their consequences for the field's patterns of success and failure, this text argues for a reorientation of the field away from thought and toward activity. It offers a critical reconstruction of AI research.",
+        "authors": [
+            "Philip Agre, Philip E. Agre"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1997,
+        "reviews.summary": [
+            "Dated, but good"
+        ],
+        "reviews.text": [
+            "During the 1980s, there were two main approaches to the computational study of human intelligence. The first, and largest, was the symbolic approach, derived from the work of Church and Turing, and later championed by two giants in the field, Simon and Newell. These researchers formulated the Physical Symbol System Hypothesis, according to which all of human intelligence can be expressed as a process of search in a symbolic state space transformed through the use of equally discrete operators.The other camp, mostly hiding in the shadows for much of this time, derived from control theory and the servomechanisms of WWII. They held that the human brain was not a discrete symbol-processing entity but rather something constantly in direct contact with a continuous world. Although this group found its closest computational champions in Rosenblatt and Rumelhart, it paled in comparison to the promises and research invested early on in the symbolic approach.Agre's book, Computation and Human Experience, was written as a call to arms for researchers in the symbolic tradition, a challenge to critically re-evaluate their own ideas and methods. In contrast to the \"mentalist\" juggernaut, Agre proposes an interactionist view of cognition, and shows how such an approach can be reconciled with the technical practice of constructing computational models. The book achieves a rare balance of philosophical argument with computational theory, though in both sides experts will be able to find holes in Agre's arguments.However, the biggest problem with this book is its relevance to the current state of affairs. Much of this work is based on the research that went into Agre's doctoral dissertation (completed in 1988), and in the 2 decades that have passed the situation in cognitive science has improved dramatically. Embodied cognition is not a dark art but an accepted and thriving practice, deictic representation is more commonplace, and even \"rule-based\" production system architectures like Anderson's ACT-R have found the representations and techniques necessary to interact with a dynamic and continuous world.Whether or not Agre's book has contributed to the current and improving state of affairs is a matter for speculation (my feeling is that it has), but it is most important that no reader today mistake this book's perspective (\"situated\" in the mid-1980s) as representative of the current status of cognitive science."
+        ],
+        "book_id": 203760
+    },
+    {
+        "book_title": "Artificial Intelligence: Theory and Practice",
+        "description": "This book provides a detailed understanding of the broad issues in artificial intelligence and a survey of current AI technology. The author delivers broad coverage of innovative representational techniques, including neural networks, image processing and probabilistic reasoning, alongside the traditional methods of symbolic reasoning. The work is intended for students in artificial intelligence, researchers and LISP programmers.",
+        "authors": [
+            "Thomas L. Dean, Thomas Dean, James Allen, John Aloimonos, Yiannis Aloimonos"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1995,
+        "reviews.summary": [
+            "Serious errors",
+            "This is a useful book by eminent authors."
+        ],
+        "reviews.text": [
+            "I used to use this text for AI undergraduate courses, and have given up. It has grievous errors in it, including in the on-line errata. Two quick examples: the information theoretic equations for decision trees is dead wrong. And the alpha-beta algorithm is completely incorrect. The text also has packed large amounts of information into very tight spaces, leading to poor explanations in important sections: the backpropagation section in particular consistently leads to serious confusion among students. And attempts to reduce algorithms into a procedural rather than functional/recursive format only result in excess complexity.This is particularly frustrating because there really is no good undergraduate text for AI. This one comes close, packing in lots of stuff into an inexpensive volume. But the errors are serious enough, and in such high-utility sections, that this book cannot be recommended.",
+            "This is a good book for the beginners in the subject. I liked the book for its beautiful writing style. The most useful chapters of this book are chapter 5 on learning, chapter 7 on planning and chapter 9 on image understanding.The concepts on the situation calculus discussed in chapter 6 are also presented very interestingly. The examples used to illustrate different issues are realistic. The book must be on the desk of anyone interested in the domain of Artificial Intelligence."
+        ],
+        "book_id": 122072
+    },
+    {
+        "book_title": "Rethinking Smart Objects: Building Artificial Intelligence with Objects (SIGS: Advances in Object Technology)",
+        "description": "With the overload of data and automation in today's information technology world, intelligent software is needed to control and filter the resultant chaos. Object-oriented programming breaks software and information into functional units. Artificial intelligence and knowledge software distribute these units and enable them to communicate and negotiate with each other. In Rethinking Smart Objects, Dan Rasmus, a regular columnist for Object Magazine and an accomplished knowledge engineer, has surveyed his own body of work and gathered the most important and relevant material from his contributions to the magazine. This is the first book to explain the integration of object technology and knowledge software development.",
+        "authors": [
+            "Daniel W. Rasmus"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1999,
+        "reviews.summary": [
+            "Empty"
+        ],
+        "reviews.text": [
+            "The first chapter or two could have made an interesting magazine article. The book as a whole is otherwise empty of any useful content.The author wishes to impress us that he has heard of every computer term, and continually trots these out in no particular order and mostly not in context.His message boils down to:- AI has some uses today, and the AI/Expert System vendors are worth looking to for a programming tool to address today's programming needs. There you are, there is no need for you to read the book now!"
+        ],
+        "book_id": 41629
+    },
+    {
+        "book_title": "Minds, Brains, and Computers: An Historical Introduction to the Foundations of Cognitive Science",
+        "description": "This work offers a selection of seminal papers on the foundations of cognitive science, from leading figures in artificial intelligence, linguistics, philosophy and cognitive psychology. Each category includes papers that show the conception in question, illustrate, interpret or criticise it.",
+        "authors": [
+            "Robert Cummins, Denise D. Cummins"
+        ],
+        "categories": [
+            "Philosophy"
+        ],
+        "publishedYear": 2000,
+        "reviews.summary": [
+            "Enjoyed It"
+        ],
+        "reviews.text": [
+            "We used this text for my philosophy class. It's a great collection for anyone interested in computers and cognition. The text contains many of the most important articles and thought experiments on the subject."
+        ],
+        "book_id": 40450
+    },
+    {
+        "book_title": "Police Intelligence Reports",
+        "authors": [
+            "Charles C. Frost, Jack P. Morris"
+        ],
+        "categories": [
+            "Political Science"
+        ],
+        "publishedYear": 1983,
+        "reviews.summary": [
+            "Essential discussion on \"Quality\" L.E. Intel. products."
+        ],
+        "reviews.text": [
+            "Messer Frost and Morris delineate the key elements of \"quality\" intelligence. Quality requires prioritizing within each segment of the intelligence cycle-planning and direction, collection, processing and exploitation, analysis and production, and dissemination- balancing judgment in decisions using improvisation, freshness, and often quite original re-conceptualizations of the problem to find answers that are relevant to broadly understood issues. The intelligence product needs to integrate meaningful information, adding value from diverse sources, including knowledge of people, technology, culture, and current political/military strategies. Rather than using tried and true solutions, simplistic maximizations, or well-honed and comfortable decision rules, intelligence professionals need to employ creative and adaptive methods of collection and analysis suited to the unique features of the problem.Realizing there may be no 100% guaranteed right answer, or in most cases, even an answer that will endure, the intelligence community must seek to integrate a variety of scenarios (game theory) with their particular goals and strategies. Therefore, outstanding intelligence will be highly creative in identifying significant patterns from diffuse, tangled data and information. As has been recently determined, the benefit of intelligence lies in problem finding as opposed to problem solving, whereby problem finding depends upon uncovering trends, patterns, and interrelationships when they are not readily apparent and/or intentionally hidden from others.Therefore, the sub-elements of `Quality' are:Timeliness. The intelligence product must reach the consumer at the time of itsgreatest inherent usefulness. Within every level of consumption-strategic, operational, and tactical-there lies a unique and temporary combination of circumstances. A decision and subsequent action that is delayed is often rendered ineffective because the circumstances have changed.Accuracy. The merit of intelligence is dependent on the same principals as anyother academic, scientific, or professional endeavor, i.e. reliability and validity. The conclusion, in terms of precision or probability for recommended policy must have a high propensity for replication with the same results if reexamined. The primary criteria in evaluating either a document or oral testimony is the degree of reliability of the source, from which the information was obtained. Additionally, the information must address the actual subject at hand-validity. In other words, are we examining that which we intended to examine, as opposed to irrelevant phenomena? The intelligence industry utilizes the Modified Admiralty System to grade information in response to these issues.Relevance. The desirability of intelligence products today emanate from a wealthof fluid complexities and the analyst's ability to discern fact from assumption and then give it meaning. Within the context of low intensity conflict-transnational in scope, insurgent in nature, and asymmetrical in form-many quantitative and qualitative evaluations of certain aspects of the enemy's behavior, which appear to be numerically precise, are in fact number games that add up to precisely nothing. No statistical index or quantitative variable can properly be attached to some essential attributes of the enemy, e.g. surprise, deception, and mobility. Therefore, new means of measuring the relevance of the evidence must be explored.This is a MUST read for any student or professional with interest in law enforcement intelligence."
+        ],
+        "book_id": 179840
+    },
+    {
+        "book_title": "What Computers Still Can't Do: A Critique of Artificial Reason",
+        "description": "When it was first published in 1972, Hubert Dreyfus's manifesto on the inherent inability of disembodied machines to mimic higher mental functions caused an uproar in the artificial intelligence community. The world has changed since then. Today it is clear that \"good old-fashioned AI,\" based on the idea of using symbolic representations to produce general intelligence, is in decline (although several believers still pursue its pot of gold), and the focus of the Al community has shifted to more complex models of the mind. It has also become more common for AI researchers to seek out and study philosophy. For this edition of his now classic book, Dreyfus has added a lengthy new introduction outlining these changes and assessing the paradigms of connectionism and neural networks that have transformed the field. At a time when researchers were proposing grand plans for general problem solvers and automatic translation machines, Dreyfus predicted that they would fail because their conception of mental functioning was naive, and he suggested that they would do well to acquaint themselves with modern philosophical approaches to human beings. What Computers Can't Do was widely attacked but quietly studied. Dreyfus's arguments are still provocative and focus our attention once again on what it is that makes human beings unique.",
+        "authors": [
+            "Hubert L. Dreyfus"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1992,
+        "reviews.summary": [
+            "A response to Jeffrey Shallit.",
+            "An absolute 'must read' for people interested in the role of computing in society",
+            "The message is still potent, but the text is well shuffled",
+            "An important critique",
+            "excellent example of accountability over expectation",
+            "What AI researchers can't do on computers - yet",
+            "Convincing Critique",
+            "History proved Dreyfus right",
+            "Artificial Intelligences Exist Today",
+            "Creation science applied to artificial intelligence"
+        ],
+        "reviews.text": [
+            "Mr. Shallit compares the critique of cognitive science by Professor Dreyfus to 'creation science'. He remarks that Dreyfus is not a computer scientist. This is true. But many 'cognitive scientists' aren't either, cognitive science being an interdisciplinary pursuit engaging philosophers, psychologists, linguists, neuroscientists, anthropologists and sociologists. It is unfortunate that Dreyfus allowed himself to polemicize by using the word 'alchemy' to characterize his opponents, but he has, by far, been the victim of unargued diatribes against his work. The fact is: most of the salient issues in cognitive science are logical and conceptual, NOT technological. Here, Dreyfus broke new ground (although I would have preferred his treatment to have been more Wittgensteinian than Heideggerian). Phil Agre's brilliant book on computation and human experience (Agre IS a computer scientist) shows that SOME AI-workers have found aspects of Dreyfus's work very telling. But, of course, the issues are, again, not empirical but logical in this field. See, for example, Graham Button et al., &quot;Computers, Minds and Conduct&quot; (Polity/Blackwell, 1995) which picks up where Dreyfus left off. Shallit remarks that Dreyfus has been 'refuted': where? by whom?The fact is that cognitivism is hotly contested by serious thinkers in many disciplines, but Shallit's name-calling (and the comparison of cognitivism's serious critics to creation scientists) smacks of an abdication from serious engagement and argument.Dreyfus's revised edition is a fine piece of work, worthy of serious intellectual discussion and confrontation. His many aarguments against Fodor, Chomsky, Simon and others have great merit. It is unfortunate that some folks simply close their eyes and argue from authority. But appeals to (even 'scientific') authority wear thin when left to stand alone!!",
+            "This is an absolute classic that everyone interested in or working in AI should have read. It is one of the very view books on a computer related subject that is over 25 years old and still useful today. That alone might tell you something. I find it interesting that many AI-workers seem to be actually afraid of this book. They should not. It may give the reader a far better sense on limits, use and future of AI work.I would also recommend this book to people outside the AI world and who are interested in what role the digital computer may play in our lives. But the book is not about bits, so if you don't like technical mumbo-jumbo, this is still a book for you.The book is very well written. Some readers may find it a difficult book, as it also contains some philosophical issues. But some readers may find themselves in a bookstore asking for the work of Wittgenstein or Heidegger and actually understanding what they read (and like what they read) after having read this book.I have only one complaint. The introduction to the 1992 MIT Press edition is in fact an afterword. It assumes that you already are familiar with the history of the subject. So, if you read this book, you should start with the Introduction to the 1979 edition instead and keep the Introduction to the MIT Press edition definitely for last",
+            "It goes without saying that this book remains a landmark in the history of AI research: a sobering antidote to all the research hype.But what a patchwork it has become. Every ten years, the book has a new section and a new introduction bolted on to it. But not just bolted on to the end, or on to the beginning.No reader is given an easy path through the text: neither the reader who is new to the material (and who wants to read through the text in chronological order), nor the reader who has read the previous incarnation of the book (and who wants to pick up just the new parts).The message of the book, too, is unfortunately weakened by its subjective stance, and its invocation of the personalities from the debate.However, the book still remains a refreshingly different contribution to the world of AI research, an important warning, and a greatly worthwhile read.",
+            "I first read Dreyfus' critique of AI back in the 1970s, when I was an undergrad studying computer science. At the time, I rejected Dreyfus arguments, believing, as did most AI researchers, that all we needed to do to create a true artificial intelligence was a fast enough computers and enough information about objects, symbols, and representations. From that, intelligence would arise from the \"emergent properties\" of the system.A few years later I was a grad student in cognitive psychology, and thanks to my cognitive studies and a careful reading of Wittgenstein's writing on language, my opinion of both Dreyfus and GOFAI (good old fashioned AI) had changed radically. Meaning is not just labels and symbols. As Wittgenstein observed, meaning can only arise from a shared experience, something that a machine and a human cannot have- at least given our current level of hardware.The AI community has since come around (largely) to accept most of Dreyfus' critique, while never actually acknowledging his role in shaping the aims of AI, so the AI or cognitive sciences student reading Dreyfus today may wonder what much of the debate is about. But this is a book that all AI and cognitive science students about read, both to understand how the AI paradigm changed between the 1970s and the present, and to get a better idea of the philosophical issues that Dreyfus raised that still are salient today.",
+            "I would love to see a working \"HAL\", and still hope we progress in the development in AI. However, the discovery of a General Problem Solver has always been elusive, and never matched the corresponding development for the raw physical abilities our computers now have. Why is that? And why is this still true?Mr. Dreyfuss attempts to answer this with a refreshing accountability of the scientific method. He compares the historical development of AI to the theoretical expectations, and apparently not without resistance. He manages to challenge the \"salesmanship\" of following trends, and thus avoiding assumed results.The book provides many examples of its logic, and carefully draws the conclusions. When I first read it I was tremendously impressed with its (if I may) \"insights\". I feel it is a must read; not just for those in the AI world, but for those interested in the scientific method as well.",
+            "Dreyfus' book is about the history of failure of Artificial Intelligence researchers such as Marvin Minsky to embody intelligence at the human level. It is easy to read, but is rather exasperating. It is like riding in a truck driven by Minsky, and other AI researchers, where they are trying to make a long trek across a country without roads. They keep getting caught in swamps, blowing tires, and hitting trees, all the time shouting &quot;We're almost there!&quot; Meanwhile Dreyfus is a dog in the bed of the truck continually barking at dangers, and the folly of the drivers. Amidst Dreyfus' continuous cacophony of sarcastic cynicism there are some important points on what assumptions are doomed to failure, which he made quite clear by tedious repetition.Basically there are two types of mistakes made by Minsky and many others:1. believing they were getting close to understanding human thought,2. repeatedly announcing same to the world.The philosophy of Dreyfus in the first 300 pages is largely concerned with fallacious assumptions made by AI researchers. Finally in the last 50 pages (350 page book) he settles down and gives us some interesting concepts that should be understood if we are to seek AI at the human level. He develops the concept of &quot;nonformal behavior&quot; - which we humans usually learn by generalizing examples and following intuition without use of formal rules. Examples: chess at the gestalt master level, and disambiguation of broken sentences.Dreyfus acknowledges the possible importance of neural network architectures, but dismisses them as outside the scope of his critique. He touches on the poor idea of AI trying to program a full functioning adult, and further carries out a critique of machine learning (&quot;reinforcement learning&quot;).The most important point he makes is that of nonformal behavior -- the non-logical almost Zen-like process that humans must go through. The irony is that we have to struggle with our nonformal thinking to do simple formal tasks such as long division; whereas the computer must struggle with its built-in hard logic to attempt nonformal tasks such as pattern recognition.The book is for the most part quite dated, but nevertheless, it is very worthwhile reading for anyone in a serious pursuit of machine intelligence. My criticism of his style is just that. I have only a minor criticism of the intelligent content and his restrictions in scope.",
+            "Berkeley Professor Hubert Dreyfus assesses the predictions and subsequent failures of artificial intelligence from its inception in the 1960's with innovators like Turing to the present day with a detailed and honest account of why higher level AI is impossible. After evaluating the history of AI's minuscule progress, Dreyfus provides a compelling analysis of human intelligence, drawing on the philosophies of Heidegger, Wittgenstein, and Merleau-Ponty in order to demonstrate that higher level cognitive faculties are not reducible to computational representations. This book is an important reversal of commonly accepted assumptions within the cognitive sciences, from linguistics to psychology. It is also an important example of why the cognitive sciences would benefit from paying greater attention to the achievements of contemporary European philosophy.",
+            "Mr. Shallit, in a previous review, sounds exactly like a throwback to the previous era when glorified computer technicians started to take themselves seriously and bestowed upon themselves the bogus title of \"computer scientists\". When Dreyfus critique of strong AI came out they were enraged that someone was trying to punch the air (and as it turned out it was full of hot air) out of their over inflated clown balloon. After decades of sheer nonsense, and of confusing metaphor with the real thing (their preposterous proposition of the \"complexity critical mass\" for intelligence is akin to thinking that a sufficiently complex computer simulation of an atomic explosion will actually explode: I guess we should all be really worried...) strong AI proponents just gave up. Now they are much quiet and many have given Dreyfus some concessions after being proven completely wrong (old habits die slowly). No serious GCT (Glorified Computer Technician) of today would profess faith in strong AI.",
+            "Scientists have formulated at least 100 definitions of what intelligence is. (for a partial listing see www.vetta.org/definitions-of-intelligence/)Several computer programs exist which qualify as intelligent according to at least the vast majority of these definitions. (for instance my Asa, Trans. of the Kansas Acad. of Sci., vol. 109, # 3/4, pg 159, 2006,www.bioone.org/archive/0022-8443/109/3/pdf/i0022-8443-109-3-159.pdf) Not all creatures are equally intelligent so there is no need for an AI to be as intelligent as the average human. In point of fact, however, AIs exist which outperform humans at a number of important tasks.",
+            "Creation science is to evolution what this book is to artificial intelligence.Creation \"scientists\" often have no credentials in the field they attack; similarly, Dreyfus is a philosopher, not a computer scientist.Creation \"scientists\" often use inflated rhetoric and impute dishonesty to their opponents; similarly, Dreyfus has likened AI to alchemy and made scandalous allegations against AI researchers such as Simon.Creation \"scientists\" only attack evolution; they do not provide any scientific alternative; similarly, Dreyfus only attacks strong AI and does not offer any alternative line of research.The criticisms of creation \"scientists\" are based on religion; Dreyfus bases his critique on philosophy. Neither critique has any scientific foundation.Creation \"scientists\" continue to advance objections that have been decisively refuted, such as arguments based on the Second Law of Thermodynamics or the bogus Paluxy River tracks. Bogus claims are rarely retracted. Similarly, Dreyfus has rarely acknowledged that many of his previous claims have been refuted.Finally, creation \"scientists\" have had essentially no impact on evolutionary biology, but great impact among the lay public. Similarly, Dreyfus' book is popular among non-scientists, but has had very little impact among people who actually do AI...."
+        ],
+        "book_id": 66711
+    },
+    {
+        "book_title": "Brainmakers",
+        "description": "An illuminating, lucid account of scientific work on artificial intelligence explores the groundbreaking research being done in robotics and neuroscience, showing how thinking machines may surpass the human brain's powers. 30,000 first printing. Tour.",
+        "authors": [
+            "David H. Freedman"
+        ],
+        "categories": [
+            "Science"
+        ],
+        "publishedYear": 1994,
+        "reviews.summary": [
+            "An excellent and fascinating read for any sci-fi fan...",
+            "A Review of Brainmakers"
+        ],
+        "reviews.text": [
+            "If you've ever read 'I, Robot' by Issac Asimov (or anything like it), this book should be required reading for you. It provides a fascinating and candid view into the history, research, debates and a detailed summary of the current progress in the controversial field of A.I. (artificial intelligence). I thoroughly enjoyed this book, and have shared it's title with many who have also enjoyed it. As an author and sci-fi fanatic, I found it's forthright, non-technical manner both refreshing and easy to read (finished it in one night), and the information provided to be excellent food for thought. Not too technical, this book can easily be understood by just about anyone, and SHOULD be read by anyone who has ever enjoyed reading anything involving robots or computers of any kind (even the average Star Wars fan will like this one). 'Brainmakers' is a must-read which has earned a permanent place in my personal library (which I might add is fairly extensive and somewhat exclusive). If you can find a copy, it's worth whatever price you have to pay for it.",
+            "Freedman's book is a useful introduction to artificialintelligence suitable for the lay reader. More technicalintroductions exist in the form of the many good textbookson AI.Brainmaker is a fun read but I do have a few criticisms.Freedman distinguishes &quot;old time&quot; &quot;good old fashioned AI&quot;g.o.f.a.i. from what he dubs &quot;nature AI.&quot; I believe that hehas simply cobbled together some ideas and that his &quot;natureAI&quot; does not exist as a coherent project.Freedman seems to think that gofai was not modeled afternature. I do not agree. Newell studied how people reasoned,Boole was building a logic of how people think, and Rosenblatthad real neural nets in mind. It is also inaccurate to callgofai a failure. Sure there are lots of things that peoplecan do that computers can't. But there is also a long andgrowing list of what computers can do and people can not. AIsare good a modus tollens, humans are not. AIs are good atlong chains of reasoning and with negated terms, humans are not.Computers can handle spaces having many dimensions, humans findit hard to handle 3. Computers are good at probability andmath, people are not. And the list goes on and on.Freedman's &quot;nature AI&quot; does not exist as a real AI subfield.He has simply grouped together a number of new ideas, some good,some bad. He also spends too much time on biology. Ifthere is any evidence that intelligence requires &quot;wetwear&quot; suchevidence is not presented in the book."
+        ],
+        "book_id": 68708
+    },
+    {
+        "book_title": "Artificial Immune Systems: A New Computational Intelligence Approach",
+        "description": "Recently there has been a growing interest in the use of the biological immune system as a source of inspiration for solving complicated computational problems. The immune system involves many information-processing abilities including pattern recognition, learning, memory and inherent distributed parallel processing and for these, and other reasons, it has received a significant amount of interest as a metaphor within computing. This emerging field is known as Artificial Immune Systems (AIS), and applications of AIS include, machine learning, fault diagnosis, computer security, scheduling, virus detection and optimisation.",
+        "authors": [
+            "Leandro Nunes de Castro, Leandro Nunes Castro, Jonathan Timmis"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2002,
+        "reviews.summary": [
+            "Pretty good overview",
+            "Good Start",
+            "Amazing Book!"
+        ],
+        "book_id": 126642,
+        "reviews.text": [
+            "Bio-inspired computing has taken the world by storm in the last few decades, going by the names of neural networks, genetic algorithms, evolutionary programming, and swarm intelligence. Another one has arisen has appeared in the last 15 years or so, is inspired by the biology of the immune system, and is the subject of this book. The authors of the book are aware that the approach is novel, but do a good job of presenting the field to newcomers (like myself), who want to know what it is all about and if it indeed has useful applications. They discuss their own work in the area and that of others, and extensive references are given for further reading.After a short introduction to the subject in chapter 1, the authors move on to a description of the biological immune system in chapter 2. They stress the need for understanding the mechanisms that regulate the adaptive immune response, so as to be able to control the transformation of an immune response from an &quot;aggressive&quot; to a &quot;benign&quot; state. The authors explain the difference between the &quot;innate&quot; immune system and the &quot;adaptive&quot; immune system. As the name implies, the adaptive immune response is a kind of &quot;learning&quot; ability that allows the immune system to improve itself as antigens are encountered. The innate immune response though remains constant along the lifetime of the organism. A short description of the T-cells and B-cells is given, some of which can differentiate into &quot;memory cells&quot; that remain circulating in the body and protect against a given antigen. Particularly interesting is the role of &quot;pattern recognition receptors&quot; that recognize molecular patterns associated with pathogens. The clonal selection theory of the adaptive immune system, along with the somewhat controversial immune network theory.Chapter 3 is an overview of how to to actually create an artificial immune system (AIS). The emphasize that anything deemed controversial in the biological framework need not be when viewed from a computational perspective, such as the immune network theory. Biology is used for the inspiration of the computational models, and as such they need not reflect entirely what is true in the biological case. They also emphasize that the various attempts to simulate the immune system on computers are not examples of an AIS. Also, an AIS is more than just a pattern recognition algorithm, even though it must employ this in its use. To give a framework for an AIS, the authors employ a model of immune cells and molecules called a &quot;shape-space&quot;. In this shape space one models the affinity of the &quot;molecules&quot; via a metric, which the authors eventually choose to be the Hamming metric. They then give an overview of various algorithms for modeling the immune system, such as bone marrow, thymus, and immune network models, in addition to clonal selection algorithms. For those readers familiar with dynamical systems, the immune network models are very interesting, due to the use of differential equations, and also the fact that such in immune network models the immune system is performing even in the absence of external stimuli.Chapter 4 gives a survey of artificial immune systems, such as spectra recognition for chemical reactions, infectious disease surveillance, analysis of medical data, and computational security. The latter was of particular importance to me, so I read the discussion and the references with more attention than other parts of the book. The issue with the approaches for network intrusion detection and virus detection lie mostly in the performance of the network. Agents that are cleverly designed may form a very accurate way of detecting this malicious behavior, but their deployment on a network may degrade the its performance considerably.I did not read chapters 5 and 6 so I will omit their review.In chapter 7, the authors discuss various case studies in artificial immune systems that shed more light on the examples of Chapter 4. The computer network security application is discussed again, and a low number of false positives is shown to follow after the artificial immune system is simulated. However, the performance of the network is not pointed out by the authors. The authors also give more details on the application of artificial immune systems to data analysis and optimization. The discussion is interesting, but it is still an open question as to whether this approach is indeed better than other ones in optimization theory, i.e. how does the immune approach compare with the &quot;free-lunch&quot; theorems so often quoted in optimization theory? The authors do make a brief comparison of their optimization algorithm with evolution strategies, and this is somewhat helpful to those who are familiar with the latter.The last chapter of the book looks to future applications of artificial immune systems, and in its connection with learning paradigms in artificial intelligence. The authors are open-minded about the future of AIS but also subject it to critical analysis.The book motivated me to investigate the use of AIS more fully, and to begin thinking about possible applications, such as 1. Event correlation in networks. 2. Network routing: Routes that are inefficient are viewed as &quot;antigens&quot;, and the network immune system will then cure the system of these routes, meaning that it will remember them as being antigens up to some practical time scale. The routing scheme in place will not implement these routes within this time frame. 3. The TCP/IP protocol in the context of the immune network theory where reliable connections are based on the epitope/paratope recognition capability. Any emergent properties of the network overlaid with the TCP/IP protocol such as learning, memory, and self-tolerance could be studied by viewing the packet network as an immune network. 4. Network QoS, with packets marked as low priority viewed as temporary antigens. 5. Using the function optimization capabilities of AIS do calculate the effective bandwidth of ATM networks. 6. Data analysis, particularly in the construction of algorithms to distinguish chaos from noise.",
+            "The book in general provides meaningful information about the topic. It give you a good start to design your own AIS based system. I recommend it for grad students in computer science.",
+            "I recently started my Thesis on Artificial Immune Systems, and this was the first place I looked. This book gave me the foundation that I needed to start my own AIS. I was a little disappointed with the fact that the book is outdated, and a lot of the sources that the authors use are no longer available, but if you know how search for people on the Internet then it isn't a problem.The first couple of chapters go through the history and the functionality of the vertebrate immune system. This is obviously important when it comes to creating your own AIS. However, if you already did your research on the immune system then it is possible to just skip these chapters. The next couple chapters explain how it is possible to convert biological functions to computer code. The book does bring up a lot of immune-inspired algorithms to the table, and it explains how they work. Some more chapters explain some examples of how one could use an AIS. For example, there are some explanations on how an AIS can be used for an intrusion detection system or optimization. There are many more, but I won't list them here. The later chapters didn't really pertain to me, so I didn't read them thoroughly. The chapters bring up the future of AIS and it's possibilities. Overall, I would highly reccommend this book to anyone who is interested in either AIS in general, or if you are starting out a project pertaining to an AIS.Some things to think about when buying this book:Yes, this book is the perfect place to start if you know nothing about AIS.Yes, this book does offer some pseudocode algorithms, and they do help.Not every chapter of this book is necessary to read.Yes this book goes over immune system algorithms.No, this book will not code your immune system if that is what you are thinking."
+        ]
+    },
+    {
+        "book_title": "Knowledge-Based Neurocomputing",
+        "publishedYear": 0,
+        "reviews.summary": [
+            "Excellent for research!"
+        ],
+        "reviews.text": [
+            "Recommendation:For graduate studentsBasic:This book is a set of papers about problem solving with Artificial Nueral Networks. So, you have to be well fimiliarized with the Neural Network concept. All these papers shows an approach to solve specific problems when creting an infernce machine related with a data base(Knowledge Base).Intermediate:Some knowledge on labeled graphs, and calculus can't be avoid. With this book you can : explore the several knowledge representation, introduce them into an Artificial Neural Network with testing and learning periods, and get the new rules generated once learning period ends.Advance:If you are developing an Expert System or a Knowledge-Based system you can't avoid use the Human Expert when you are designig the Knowledge Base. But, the expert would be only needed as a example provider for training and not as rule provider by using these book. So, the Artificial Neural Network works as the rule generator and inference engine."
+        ],
+        "book_id": 210209
+    },
+    {
+        "book_title": "Expert Systems: Principles and Programming, Fourth Edition",
+        "description": "The new edition of this market-leading text builds upon the blend of expert systems theory and application established in earlier editions.",
+        "authors": [
+            "Joseph C. Giarratano, Gary Riley"
+        ],
+        "categories": [
+            "Bilgisayar tabanl\u0131 programlama"
+        ],
+        "publishedYear": 1989,
+        "reviews.summary": [
+            "Great book! Gives an overview of CLIPS main features.",
+            "Up-to-date, accessible and concise. Great introduction to expert systems",
+            "Worth every penny",
+            "G&R Expert Systems",
+            "Great Tutorial for CLIPS Including Patterns With a Very Lengthy and Somewhat Confusing Introduction to Expert Systems",
+            "Fairly decent but also somewhat basic",
+            "Basic instruction on AI programming",
+            "very good in general",
+            "Expert Systems: Principles and Programming, Fourth Edition"
+        ],
+        "reviews.text": [
+            "The authors give a good cursory background on knowledge representation within AI. Chapters 7 - 12, present CLIPS syntax and usage. The information in these chapters helped me to develop a simulation involving four intelligent agents, colloborating via a blackboard. The book provides no details with respect to CLIPS object-oriented capabilities (COOL), but this is something that can be learned through CLIP's accompanying documentation. I highly recommend this book to anyone wanting to know more about expert systems or CLIPS.",
+            "The 4th edition has remarkable changes compared to the 3rd edition, which was written in 1990. Almost all the references are highly up-to-date, new trends in the AI field and new applications leveraging expert systems are introduced all through this book. The content ranges from an overview to the technology of Expert Systems, the basic scientific foundation of Expert Systems and the CLIPS tool for implementing expert systems. There are two chapters about reasoning under uncertainty and inexact reasoning, which are the ways the AI systems are heading. Things like semantic web, its advantage and problems are very well sorted out in the first chapter. The authors put a good deal of humour into the text all through this book, the formal logic stuff is not that boring as it usually appears in other book. I wish I had had this book as my first book for formal logic/deduction systems. The mathematical mechanisms for things like resolution/deduction are explained with plenty of well-arranged diagrams and tables to help readers understand better. Every chapter comes with well-designed assignments. An excellent text book for introductory AI courses (I believe a motivated high-school kid will have no problem to understand the book since it is so well written). And also a good reference for those who need to look up basic concepts while engineering expert systems. I'm constructing an expert system at the moment, got this book 2 weeks ago and it's already dog-eared on my desk. For its targeted audience, this book is truly the best-of-breed. Highly recommended.",
+            "This book gives a reasonable, detailed and seriuous account on expert system. A detailed presentation of the CLIPS expert-system language, along with the interpreter, is provided.Excellent for starting work on expert systems as part of integrated software packages.",
+            "Gary Riley was, for a long time, a NASA employee whose sole assignment seemed to be to work out the C implementation of the OPS language from LISP to C so that the military could use it. LISP, even the Symbolics LISP machine, was far too slow for practical applications. Dr. Girratano worked with Gary to produce a book that could be used as a text book in classes taught at the University of Houston and could be attended by the NASA personnel. All hand-in-glove situation that worked out quite well.But, The Book! I have used it to teach many of my classes on AI. The first five or six chapters can be applied to ANY rulebased system. The first two chapters can be read by any person who wants to understand more about AI. True enough, most of the vendors today have directed their efforts to Java, but the speed of CLIPS is now (since about 20008) one of the fastest in the world. The power of CLIPS is unparalleled in terms of subroutines and extensions that have been implemented over the past 20 years by NASA and others.The CLIPS language is free. The book is extremely inexpensive for a course in AI. My advice is to read it, devour it, consume it and understand it. Unfortunately, after that you won't be able to talk with your companions about AI since they will know very little except If-THEN-ELSE is part of a rulebased system. If you can find a university that teaches this book, TAKE THE COURSE!! If not, read it on your on your own and join a local rulebase group to help you grow. Above all, have fun.SDGjco",
+            "Just want to learn CLIPS: skip the intro. Just want a first introduction to expert systems: try a different book. Personally I liked:Introduction to Expert Systems (3rd Edition). You know expert systems and want more reading food: Go for this one. It contains endless material and references.\"Expert Systems\" is a great tutorial of the C based open source expert system shell CLIPS. It even contains patterns of usage. This part alone is worth the read of this rather expensive book. Also some nice examples of expert systems are programmed in a very instructive way. I liked the implementation of a system with certainty factors (MYCIN style) and the developer implementation of backward chaining in CLIPS (an only forward chaining shell).The first half of the book is a very thorough overview of expert systems. For each introduced concept the book names nearly all known terms to describe this very concept. For an introduction it is extremely important to name only the most common term and then after some time maybe one or the other more.Reasoning and reasoning with uncertainty is well covered. Each chapter has ample references. Here again a little more orientation would have been very helpful.The book itself is nicely bound and printed. It is a pleasure to look at and a little heavy to hold for a long time.I fully recommend the CLIPS part and I do recommend the general expert systems part as a second or better third book on this topic.",
+            "This is a good book to have on one's library for a beginner in the Expert Systems realm.Note that actual working, production expert systems may be a good bit more difficult than can be covered in a book like this.Dr Giarratano is (was?) a great professor at University of Houston--Clear Lake. Mr. Riley was an employ of NASA/JSC when they produced this book together based partly on work done at JSC to create the CLIPS rule-based programming language. It has apparently evolved a little over time.CLIPS is fairly interesting. But I have never used it in a production setting.The current listed price of this book seems WAY HIGH. ($203.16)",
+            "Provided good basic understanding of AI with example program, CLIPS, enclosed( floppy disk), well written with understandable examples",
+            "The condition is very good and price is reasonable, however, the shipping period is a bit longer than my expectation.",
+            "An excellent text for a first course in Expert systems."
+        ],
+        "book_id": 125391
+    },
+    {
+        "book_title": "Research and Development in Expert Systems III: Proceedings of Expert Systems '86, the Sixth Annual Technical Conference of the British Computer ... (British Computer Society Workshop Series)",
+        "authors": [
+            "M. A. Bramer"
         ],
         "categories": [
             "Computers"
         ],
         "publishedYear": 1987,
-        "book_id": 152496
+        "reviews.summary": [
+            "R &amp; D in Expert Systems by Bramer"
+        ],
+        "reviews.text": [
+            "The work teaches how to reduce a large body of knowledge to aprecise set of facts and rules. A cognitive psychologicalmodel may be formulated because humans have a highly anticipatorysystem of modeling the world to increase the likelihood ofsurvival.The author sets forth some fairly sophisticated rule structuresat the meta level. For instance:o A meta meta system sets forth distinctions that specifyfurther relations amongst distinctions on lower levels ofthe decision-making processo A set of distinctions sets forth the basis of the comparisonso Models generate data on comparative relationships betweenand amongst individual modelso Distinctions about particular events are analyzedo Same or similar systems distinctions are madeThis book is for the student at the intermediate level ofartificial intelligence sophistication and model-building."
+        ],
+        "book_id": 15096
     },
     {
-        "book_title": "Power of Impossible Thinking",
-        "description": "50,000 copies sold, now in paperback... If you can think impossible thoughts, then you can do impossible things!! The power of change: create new thinking for new solutions! Includes a new introduction demonstrating the \"power of impossible thinking,\" plus access to exclusive book summary and authors' interview at the book's companion Web site. The Power of Impossible Thinking is about getting better at making sense of what's going on around you so you can make decisions that respond to reality, not inaccurate or obsolete models of the world. This bestseller reveals how mental models stand between you and the truth and how to transform them into your biggest advantage! Learn how to develop new ways of seeing, when to change to a new model, how to swap amongst a portfolio of models, how to understand complex environments and how to do \"mind R and D,\" improving models through constant experimentation. Jerry Wind and Colin Crook review why it's so hard to change mental models and offer practical strategies for dismantling \"hardened missile silos\". Finally they show how to access models quickly through intuition, and assess the effectiveness of any mental model. Purchasers of this book gain access to audio summaries on a companion web site, along with a new half-hour interview with the authors.",
+        "book_title": "The Phase Transition",
+        "description": "Phase transitions typically occur in combinatorial computational problems and have important consequences, especially with the current spread of statistical relational learning as well as sequence learning methodologies. In Phase Transitions in Machine Learning the authors begin by describing in detail this phenomenon, and the extensive experimental investigation that supports its presence. They then turn their attention to the possible implications and explore appropriate methods for tackling them. Weaving together fundamental aspects of computer science, statistical physics and machine learning, the book provides sufficient mathematics and physics background to make the subject intelligible to researchers in AI and other computer science communities. Open research issues are also discussed, suggesting promising directions for future research.",
         "authors": [
-            "Colin Cook, Yoram (Jerry) R. Wind"
+            "Lorenza Saitta, Attilio Giordana, Antoine Cornu\u00e9jols"
         ],
         "categories": [
-            "Business & Economics"
+            "Computers"
         ],
-        "publishedYear": 2006,
-        "book_id": 185017
+        "publishedYear": 2011,
+        "reviews.summary": [
+            "This Book Rocks!",
+            "Excellent! Highly Recommend!",
+            "The Phase Transition rocks!"
+        ],
+        "reviews.text": [
+            "A new twist on the Fantasy genre, this book literally transforms the modern world into a magical setting. The idea of America losing technology, and magic returning to earth is brilliant. This is no generic hack and slash novel, and it isn't some boring philosophical treatise, either. The characters are real, and have both strengths and flaws. They get in fights, yet have to rely on each other for survival. There's plenty of action, but there's actual substance between the battles. Oh yeah, one more thing, the magic ROCKS. If you like Weis and Hickman, McCaffrey or Jordan, this book's for you.",
+            "This is one of the most unique stories that I have read in a long time! Not since Stephen King started his Dark Tower series have I read a book this intriguing and different. The characters are all very interesting and the story is quite compelling. It was hard to put the book down! If you are looking for a great science fiction story that's a cut above the rest, this is it. Can't wait for the next in the series!",
+            "This book is by far one of the better 'post apocolypse' books I have ever read. It takes a look into how reliant we as a culture have become on our society to live. I can't wait for Skyrock to come out!"
+        ],
+        "book_id": 3926
     },
     {
-        "book_title": "Developing Creative and Critical Thinking",
+        "book_title": "Reasoning about Rational Agents (Intelligent Robotics and Autonomous Agents)",
+        "description": "This book focuses on the belief-desire-intention (BDI) model of rational agents, which recognizes the primacy of beliefs, desires, and intentions in rational action. One goal of modern computer science is to engineer computer programs that can act as autonomous, rational agents; software that can independently make good decisions about what actions to perform on our behalf and execute those actions. Applications range from small programs that intelligently search the Web buying and selling goods via electronic commerce, to autonomous space probes. This book focuses on the belief-desire-intention (BDI) model of rational agents, which recognizes the primacy of beliefs, desires, and intentions in rational action. The BDI model has three distinct strengths: an underlying philosophy based on practical reasoning in humans, a software architecture that is implementable in real systems, and a family of logics that support a formal theory of rational agency.The book introduces a BDI logic called LORA (Logic of Rational Agents). In addition to the BDI component, LORA contains a temporal component, which allows one to represent the dynamics of how agents and their environments change over time, and an action component, which allows one to represent the actions that agents perform and the effects of the actions. The book shows how LORA can be used to capture many components of a theory of rational agency, including such notions as communication and cooperation.",
+        "authors": [
+            "Michael Wooldridge"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2003,
+        "reviews.summary": [
+            "A rarity - a user-friendly book of formalism",
+            "Both Enjoyable and Thorough"
+        ],
+        "reviews.text": [
+            "An excellent treatment of the formal modelling of what Mike calls Rational Agents and others have (more provocatively) usually termed Intelligent Agents. What sets this apart from other books on the subject are Mike's refreshingly direct, no-nonsense writing, and his recognition that his audience may not have all of the formal tools at their fingertips. The Appendix &quot;Formal Foundations&quot; would be a good choice for anyone who wanted to understand modal logics, especially as they apply to time and intention. Even software engineers who would rather hack code than grapple with formalism will find this accesible, stimulating and useful.",
+            "You simply cannot choose a better overview of intelligent agent modeling. Wooldridge brings the reader from an extremely non-threatening, non-technical treatment of the basics to formal modeling of individual agent properties and multi-agent interaction using (essentially) constructions of formal logic.This book is clearly intended to communicate a particular theory in a very effective manner. However, it does not (nor does it pretend to) provide a path to implementing any of the theory, so dilettantes beware."
+        ],
+        "book_id": 69043
+    },
+    {
+        "book_title": "Artificial Intelligence: Robotics and Machine Evolution (Megatech)",
         "publishedYear": 0,
-        "book_id": 212175
+        "reviews.summary": [
+            "Mike in TN",
+            "Stuffed with facts"
+        ],
+        "reviews.text": [
+            "My 9 year old could not put this book down! Full of interesting photos and drawings, it teaches kids about current research in artificial intelligence (e.g., neural nets) and robotics. Amazing!",
+            "This book presents an exciting and challenging introduction to artificial intelligence and robotics for young people (probably ages 8-12). Jefferis describes many aspects of artificial intelligence, from the history of the field, to how computers work, robot sensors, gaming, neural networks, robot companions, and robot ethics. Each topic gets a 2-page spread, with at least as much space devoted to pictures as text. The text itself is clear and understandable, yet it doesn't come across as being dumbed down for kids. At the end of the book is an AI historical timeline, a glossary, and an index."
+        ],
+        "book_id": 89063
     },
     {
-        "book_title": "Eureka!: Scientific Breakthroughs that Changed the World",
-        "description": "The common language of genius: Eureka! While the roads that lead to breakthrough scientific discovery canbe as varied and complex as the human mind, the moment of insightfor all scientists is remarkably similar. The word \"eureka!\",attributed to the ancient Greek mathematician Archimedes, has cometo express that universal moment of joy, wonder-and even shock-atdiscovering something entirely new. In this collection of twelvescientific stories, Leslie Alan Horvitz describes the drama ofsudden insight as experienced by a dozen distinct personalities,detailing discoveries both well known and obscure. From Darwin,Einstein, and the team of Watson and Crick to such lesser knownluminaries as fractal creator Mandelbrot and periodic tablemastermind Dmitri Medellev, Eureka! perfectly illustrates LouisPasteur's quip that chance favors the prepared mind. The book alsodescribes how amateur scientist Joseph Priestley stumbled onto theexistence of oxygen in the eighteenth century and how televisionpioneer Philo Farnsworth developed his idea for a TV screen whileplowing his family's Idaho farm.",
-        "authors": [
-            "Leslie Alan Horvitz"
+        "book_title": "A Neurocomputational Perspective: The Nature of Mind and the Structure of Science",
+        "publishedYear": 0,
+        "reviews.summary": [
+            "NC Perspective explores AI like never before",
+            "A Neurocomputational Perspective: The Nature of Mind and the structure of Science"
         ],
-        "categories": [
-            "Science"
+        "reviews.text": [
+            "If you're interested in a concise and empirically grounded look at how organisms experience themselves and the world, this is a definite. There is also a nice look into the future with Paul speculating what may come from the study of neuroengineering with humans. This book is especially appealing in light of the fact that our population is being exposed to the novel findings in medicine, neuroscience, and all other fields that play a part in the NC perspective. If you're interested in this book, you may also want to check out the movie, &quot;AI.&quot;",
+            "the one that I need for my research."
         ],
-        "publishedYear": 2002,
-        "book_id": 23750
+        "book_id": 51089
     },
     {
-        "book_title": "Alexander's Book of Science Projects",
-        "authors": [
-            "Twain V. (Twain Vernon) Stasiuk"
+        "book_title": "Computational Economics: A Perspective from Computational Intelligence (Computational Intelligence and its Applications)",
+        "publishedYear": 0,
+        "reviews.summary": [
+            "Computational Economics Review"
         ],
-        "categories": [
-            "Science projects Juvenile literature"
+        "reviews.text": [
+            "Chen, Jain, and Tai bring together a variety of interesting applications of computational intelligence approaches in their edited Computational Economics: A Perspective from Computational Intelligence book. Contributions in this volume show how combinations of neural networks, genetic algorithms, wavelets, fuzzy sets, and agent-based modeling are utilized in solving a host of managerial decision-making problems. The volume is rich with applications in financial modeling, option pricing, market-making, optimization of market strategies, optimization for traffic policy, cost estimation, policy appraisal in a criminal justice system, capital control, and solving organization theory problems."
         ],
-        "publishedYear": 1999,
-        "book_id": 42832
-    },
-    {
-        "book_title": "Automating UNIX and Linux Administration (The Expert's Voice)",
-        "description": "Wouldnt you like to automate the tedious daily tasks of system administration? Automating UNIX and Linux Administration will show you how, by exploring existing tools and offering real-world examples. Although some of the book is Linux-specific, most of the information applies to any UNIX system, including material on automating tasks across multiple variants of UNIX. Author Kirk Bauer briefly overviews tools and technologiesand assumes preliminary knowledge about editing a configuration file or mounting a file system. The techniques, methods, and tools in this book will help you manage a single systembut will prove especially powerful across multiple systems. No matter if the systems are desktops, servers, or Beowulf clustersall of them will benefit from this automation. And managing five to five thousand systems will become a simpler task!",
-        "authors": [
-            "Kirk Bauer"
-        ],
-        "categories": [
-            "Computers"
-        ],
-        "publishedYear": 2003,
-        "book_id": 123477
-    },
-    {
-        "book_title": "Critical Theory of Technology",
-        "description": "This pathbreaking book argues that the roots of the degradation of labor, education, and the environment lie not in technology per se but in the cultural values embodied in its design.",
-        "authors": [
-            "Andrew Feenberg, Associate Professor of Philosophy Andrew Feenberg"
-        ],
-        "categories": [
-            "Critical theory"
-        ],
-        "publishedYear": 1991,
-        "book_id": 1395
-    },
-    {
-        "book_title": "The analysis of mind, (Library of philosophy)",
-        "description": "An unabridged edition with updated footnotes and layout, to include: Recent Criticisms of \"Consciousness\" - Instinct and Habit - Desire and Feeling - Influence of Past History on Present Occurrences in Living Organisms - Psychological and Physical Causal Laws - Introspection - The Definition of Perception - Sensations and Images - Memory - Words and Meaning - General Ideas and Thought - Belief - Truth and Falsehood - Emotions and Will - Characteristics of Mental Phenomena",
-        "authors": [
-            "Bertrand Russell"
-        ],
-        "categories": [
-            "Consciousness"
-        ],
-        "publishedYear": 1921,
-        "book_id": 169031
-    },
-    {
-        "book_title": "Information Systems; Achieving Success By Avoiding Failure.",
-        "description": "Despite people\u2019s best efforts information systems areparticularly prone to failure. Some systems never materialize,others appear late and/or over budget and those that areimplemented often fail to deliver the promised levels ofperformance. The consequences of these failures affect peoplethroughout the organization concerned and beyond, sometimes to thepoint where they even threaten a company's future survival. Theyalso damage the companies that develop and supply such systems.Worse still, the same types of problems occur again and again; eventhe most exhaustive methods are not able to ensure success. This book aims to help all those people involved withinformation systems to break that repeating pattern of failure.Using real-life examples, it introduces a sophisticated approachbased around the notion of system to come to grips with the causesof actual and potential failure. It presents a model of a systemcapable of action without failure that can be used as a yardstickto judge existing and planned information systems and to suggestmeasures that need to be taken to achieve success. The examples used cover the public and the private sector andrange in size from a nationwide system run by central government toan organization employing around 220 people.",
-        "authors": [
-            "Joyce Fortune, Geoff Peters"
-        ],
-        "categories": [
-            "Business & Economics"
-        ],
-        "publishedYear": 2005,
-        "book_id": 30478
-    },
-    {
-        "book_title": "Refining Common Sense: Moving from Data to Information",
-        "description": "Designed to help educators collect and use data more effectively, this guide enables the reader to develop three tools to use in decision-making. 1.) A Data Notebook to capture the charts, notes, and agendas created during the process along with goals, questions, and process information. 2.) A Master Data Directory for compiling the data sources that are available in the district and school, and, 3.) The Information-Based Decision-Making Roadmap that contains all the finished documents that have been used to make decisions. In addition to developing a toolkit there is also a Testing Primer with basic standardized test information. The primer can be used as a stand-alone document and is specifically designed to assist the reader in using test data accurately when making decisions. Refining Common Sense will help educators: Develop a clear roadmap to answering questions about his/her goals, Collect data to answer questions, Turn data into information, Use information in decision-making. Written for teachers, principals, program directors, superintendents, board members, and other educators, the book also includes an accompanying CD with templates for all charts, and blank charts in the appendix for copying.",
-        "authors": [
-            "Vickie Williams Phelps, Elizabeth F. Warren"
-        ],
-        "categories": [
-            "Education"
-        ],
-        "publishedYear": 2004,
-        "book_id": 74543
-    },
-    {
-        "book_title": "Evolution of International Society",
-        "authors": [
-            "Adam Watson"
-        ],
-        "categories": [
-            "Political Science"
-        ],
-        "publishedYear": 1992,
-        "book_id": 97958
-    },
-    {
-        "book_title": "Reflections on Gender and Science: Tenth Anniversary Paperback Edition",
-        "description": "We see girls and women everywhere using electronic devices; phones, tablets, laptops very proficiently, so what\u2019s the problem? It is a real, a serious and a long-standing issue. The number of girls entering and staying in computing education is still woefully low. Women are still not present at the centre of power where decisions are made determining how electronic equipment will develop. They are in reality mere users. Women in science and technology have always been pushed into the background by means of all sorts of ruses. The stories of how women scientists have suffered the same indignities since the 17th century: gender pay gaps, ridicule, sexist comments and being silenced make fascinating and relevant reading. And all this remains true in computing. RIGHTING THE WRONG looks again at the foundations of computing: mathematics, engineering and, arguably, science and shows how the masculinity of these still pervades computing education and the industry. This pervasiveness lays the groundwork for so much of the on-line abuse girls and women suffer. By drawing attention to the distant and more recent past Frances encourages readers to become more aware of what continues to this day; she urges them to challenge new developments and not to put up any longer with being silenced.",
-        "authors": [
-            "Frances Grundy"
-        ],
-        "categories": [
-            "Computers"
-        ],
-        "publishedYear": 2020,
-        "book_id": 62986
-    },
-    {
-        "book_title": "Authorware 5 Attain Authorized (2nd Edition)",
-        "description": "Vols. 8-10 of the 1965-1984 master cumulation constitute a title index.",
-        "categories": [
-            "Books"
-        ],
-        "publishedYear": 2003,
-        "book_id": 21160
-    },
-    {
-        "book_title": "Conditionally Human",
-        "authors": [
-            "Walter M. Miller (Jr.)"
-        ],
-        "categories": [
-            "Science fiction, American"
-        ],
-        "publishedYear": 1964,
-        "book_id": 14957
-    },
-    {
-        "book_title": "How to Figure the Odds",
-        "description": "This book presents not only the mathematical concept of probability, but also its philosophical aspects, the relativity of probability and its applications and even the psychology of probability. All explanations are made in a comprehensible manner and are supported with suggestive examples from nature and daily life, and even with challenging math paradoxes. (Mathematics)",
-        "authors": [
-            "Catalin Barboianu"
-        ],
-        "categories": [
-            "Games"
-        ],
-        "publishedYear": 2006,
-        "book_id": 66264
-    },
-    {
-        "book_title": "Inside C# (Microsoft Programming)",
-        "description": "This book has the same practical approach as the previous \"Stack Frames: A look from inside\" where the reader can find useful information on many of the topics addressed here. By focusing on the main subjects, it reviews some implementation details that are often overlooked or left out when studying the C language for the first time.This explains why there are so few chapters, which cover only the most important topics of the language and, often, long sections with poorly detailed definitions but rich with examples and tests to be carried out by the reader.Therefore, the book is addressed mainly to students who have already learned the language and wish to achieve a better understanding of it by observing how the source code is translated by compilers. It's a chance to explore a world so mysterious and exciting, whose importance is often undervalued.The trouble of looking at the assembly code and comparing it with the C source is amply repaid by the knowledge of how computers work and how to optimize code snippets that are responsible for slowing down the executable, assuming the proper algorithm and optimization options have already been chosen.The working environment will be a GNU operating system installed on a personal computer with a 64-bit x86 processor. The working tools will be two compilers (gcc, clang) and a debugger (gdb).",
-        "authors": [
-            "Giuseppe Di Cataldo"
-        ],
-        "publishedYear": 2017,
-        "book_id": 153439
-    },
-    {
-        "book_title": "Lingua ex Machina: Reconciling Darwin and Chomsky with the Human Brain",
-        "description": "A neuroscientist and a linguist show how evolution could have given rise to structured language. A machine for language? Certainly, say the neurophysiologists, busy studying the language specializations of the human brain and trying to identify their evolutionary antecedents. Linguists such as Noam Chomsky talk about machinelike \"modules\" in the brain for syntax, arguing that language is more an instinct (a complex behavior triggered by simple environmental stimuli) than an acquired skill like riding a bicycle. But structured language presents the same evolutionary problems as feathered forelimbs for flight: you need a lot of specializations to fly even a little bit. How do you get them, if evolution has no foresight and the intermediate stages do not have intermediate payoffs? Some say that the Darwinian scheme for gradual species self-improvement cannot explain our most valued human capability, the one that sets us so far above the apes, language itself. William Calvin and Derek Bickerton suggest that other evolutionary developments, not directly related to language, allowed language to evolve in a way that eventually promoted a Chomskian syntax. They compare these intermediate behaviors to the curb-cuts originally intended for wheelchair users. Their usefulness was soon discovered by users of strollers, shopping carts, rollerblades, and so on. The authors argue that reciprocal altruism and ballistic movement planning were \"curb-cuts\" that indirectly promoted the formation of structured language. Written in the form of a dialogue set in Bellagio, Italy, Lingua ex Machina presents an engaging challenge to those who view the human capacity for language as a winner-take-all war between Chomsky and Darwin.",
-        "authors": [
-            "William H. Calvin, Derek Bickerton"
-        ],
-        "categories": [
-            "Medical"
-        ],
-        "publishedYear": 2000,
-        "book_id": 210184
-    },
-    {
-        "book_title": "Action Learning: Images and Pathways (The Professional Practices in Adult Education and Lifelong Learning Series)",
-        "description": "In covering the essentials of action learning, this title returns to the basics and most powerful aspects of the subject. It is not a book of theory, but rather of practice. Application of action learning in a variety of settings is explored, with guides to programme design and how-to information.",
-        "authors": [
-            "Robert Lex Dilworth, Verna J. Willis"
-        ],
-        "categories": [
-            "Education"
-        ],
-        "publishedYear": 2003,
-        "book_id": 140208
-    },
-    {
-        "book_title": "Precipice",
-        "description": "This urgent and eye-opening book makes the case that protecting humanity's future is the central challenge of our time. If all goes well, human history is just beginning. Our species could survive for billions of years - enough time to end disease, poverty, and injustice, and to flourish in ways unimaginable today. But this vast future is at risk. With the advent of nuclear weapons, humanity entered a new age, where we face existential catastrophes - those from which we could never come back. Since then, these dangers have only multiplied, from climate change to engineered pathogens and artificial intelligence. If we do not act fast to reach a place of safety, it will soon be too late. Drawing on over a decade of research, The Precipice explores the cutting-edge science behind the risks we face. It puts them in the context of the greater story of humanity: showing how ending these risks is among the most pressing moral issues of our time. And it points the way forward, to the actions and strategies that can safeguard humanity. An Oxford philosopher committed to putting ideas into action, Toby Ord has advised the US National Intelligence Council, the UK Prime Minister's Office, and the World Bank on the biggest questions facing humanity. In The Precipice, he offers a startling reassessment of human history, the future we are failing to protect, and the steps we must take to ensure that our generation is not the last. \"A book that seems made for the present moment.\" \u2014New Yorker",
-        "authors": [
-            "Toby Ord"
-        ],
-        "categories": [
-            "Philosophy"
-        ],
-        "publishedYear": 2020,
-        "book_id": 164655
+        "book_id": 91308
     }
 ]

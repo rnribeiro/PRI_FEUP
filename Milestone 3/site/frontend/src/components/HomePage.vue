@@ -9,13 +9,12 @@
     <div v-if="searched" class="search-results">
       <h2 v-if="results.length > 0">Search Results</h2>
       <ul v-if="results.length > 0" class="book-list">
-        <li v-for="result in results" :key="result.id">
+        <a v-for="result in results" :key="result.id" :href="`/book-details/${result.id}`" class="book-item">
           <div class="book-box">
             <h3 class="book-title">{{ result.book_title }}</h3>
-            <p>Publisher: {{ result.publisher }}</p>
-            <!-- Add other details you want to display -->
+            <!-- Add other book details -->
           </div>
-        </li>
+        </a>
       </ul>
       <p v-else class="no-results"></p>
     </div>
@@ -103,10 +102,15 @@ export default {
 
 /* Styles for the grey box around the book title */
 .book-box {
-  background-color: #f2f2f2;
-  padding: 10px;
+  background-color: #DDD8C4;
+  padding: 20px;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .book-title {
@@ -116,10 +120,11 @@ export default {
 /* Define a grid layout for the book list */
 .book-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Three columns with equal width */
   gap: 20px; /* Spacing between items */
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 /* Remove list-style from each book item */
@@ -133,5 +138,15 @@ export default {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+/* Remove default link styles */
+.book-item {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use parent's color */
+}
+
+/* Remove underlines specifically from h3 elements inside .book-box */
+.book-box h3 {
+  text-decoration: none;
 }
 </style>

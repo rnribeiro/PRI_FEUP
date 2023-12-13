@@ -1,0 +1,216 @@
+[
+    {
+        "book_title": "The Philosophy of Artificial Intelligence (Oxford Readings in Philosophy)",
+        "description": "Is `artificial intelligence' a contradiction in terms? Could computers (in principle) model every aspect of the mind, including logic, language, and emotion? What of the more brain-like, connectionist computers: could they really understand, even if digital computers cannot? This collection of classic and contemporary readings (which includes an editor's introduction and an up-to-date reading list) provides a clearly signposted pathway into hotly disputed philosophical issues at the heart of artificial intelligence.",
+        "authors": [
+            "Margaret A. Boden"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1990,
+        "book_id": 153634
+    },
+    {
+        "book_title": "Mechanical Bodies, Computational Minds: Artificial Intelligence from Automata to Cyborgs (Bradford Books)",
+        "description": "Researchers in artificial intelligence and scholars in the humanities consider the past, present, and future of artificial intelligence from a multidisciplinary perspective.",
+        "authors": [
+            "Stefano Franchi, G\u00fcven G\u00fczeldere"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2005,
+        "book_id": 20387
+    },
+    {
+        "book_title": "Advances in Fuzzy Logic, Neural Networks, and Genetic Algorithms: Ieee/Nagoya-University World Wisepersons Workshop, Nagoya, Japan, August 9-10, 1994 ... Papers (Lecture Notes in Computer Science)",
+        "publishedYear": 0,
+        "book_id": 94514
+    },
+    {
+        "book_title": "Conceptual Revolutions",
+        "description": "In this path-breaking work, Paul Thagard draws on the history and philosophy of science, cognitive psychology, and the field of artificial intelligence to develop a theory of conceptual change capable of accounting for all major scientific revolutions. The history of science contains dramatic episodes of revolutionary change in which whole systems of concepts have been replaced by new systems. Thagard provides a new and comprehensive perspective on the transformation of scientific conceptual systems. Thagard examines the Copernican and the Darwinian revolutions and the emergence of Newton's mechanics, Lavoisier's oxygen theory, Einstein's theory of relativity, quantum theory, and the geological theory of plate tectonics. He discusses the psychological mechanisms by which new concepts and links between them are formed, and advances a computational theory of explanatory coherence to show how new theories can be judged to be superior to previous ones.",
+        "authors": [
+            "Paul Thagard"
+        ],
+        "categories": [
+            "Science"
+        ],
+        "publishedYear": 2018,
+        "book_id": 36342
+    },
+    {
+        "book_title": "Encyclopedia of Computer Science and Technology: Volume 42 - Supplement 27 (Encyclopedia of Computer Science and Technology)",
+        "description": "Combining Artificial Neural Networks to Symbolic and Algebraic computation",
+        "authors": [
+            "Allen Kent, James G. Williams"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2000,
+        "book_id": 11449
+    },
+    {
+        "book_title": "R U R. Rossum's universal robots;: Kolektivni drama o vstupni komedii a 3 dejstvich. ii. vyd",
+        "authors": [
+            "Library of Congress. Processing Department"
+        ],
+        "publishedYear": 1960,
+        "book_id": 120536
+    },
+    {
+        "book_title": "Blink: The Power of Thinking Without Thinking",
+        "description": "From the #1 bestselling author of The Bomber Mafia, the landmark book that has revolutionized the way we understand leadership and decision making. In his breakthrough bestseller The Tipping Point, Malcolm Gladwell redefined how we understand the world around us. Now, in Blink, he revolutionizes the way we understand the world within. Blink is a book about how we think without thinking, about choices that seem to be made in an instant--in the blink of an eye--that actually aren't as simple as they seem. Why are some people brilliant decision makers, while others are consistently inept? Why do some people follow their instincts and win, while others end up stumbling into error? How do our brains really work--in the office, in the classroom, in the kitchen, and in the bedroom? And why are the best decisions often those that are impossible to explain to others? In Blink we meet the psychologist who has learned to predict whether a marriage will last, based on a few minutes of observing a couple; the tennis coach who knows when a player will double-fault before the racket even makes contact with the ball; the antiquities experts who recognize a fake at a glance. Here, too, are great failures of \"blink\": the election of Warren Harding; \"New Coke\"; and the shooting of Amadou Diallo by police. Blink reveals that great decision makers aren't those who process the most information or spend the most time deliberating, but those who have perfected the art of \"thin-slicing\"--filtering the very few factors that matter from an overwhelming number of variables.",
+        "authors": [
+            "Malcolm Gladwell"
+        ],
+        "categories": [
+            "Business & Economics"
+        ],
+        "publishedYear": 2007,
+        "book_id": 181624
+    },
+    {
+        "book_title": "Keys to Infinity",
+        "description": "Takes readers through dozens of beguiling math mysteries to reveal the oddity and beauty of the infinite.",
+        "authors": [
+            "Clifford A. Pickover"
+        ],
+        "categories": [
+            "Mathematics"
+        ],
+        "publishedYear": 1995,
+        "book_id": 50966
+    },
+    {
+        "book_title": "Ways to spaceflight (NASA TT F-622)",
+        "categories": [
+            "Aeronautics and state"
+        ],
+        "publishedYear": 1997,
+        "book_id": 130390
+    },
+    {
+        "book_title": "Robots: From Science Fiction to Technological Revolution",
+        "description": "Presents an overview of the history of the robot, culled from interviews with experts such as scientists, surgeons, manufactures, science fiction writers, artists, filmmakers, and provides information on the role they play in daily life and speculates on their future.",
+        "authors": [
+            "Daniel Ichbiah"
+        ],
+        "categories": [
+            "Robotics"
+        ],
+        "publishedYear": 2005,
+        "book_id": 165611
+    },
+    {
+        "book_title": "Odyssey (Isaac Asimov's Robot City, No. 1)",
+        "description": "An amnesia victim stranded on an asteroid has only robots to turn to for assistance in finding out who and where he is",
+        "authors": [
+            "Michael P. Kube-McDowell"
+        ],
+        "categories": [
+            "Fiction"
+        ],
+        "publishedYear": 1987,
+        "book_id": 159065
+    },
+    {
+        "book_title": "Rational Choice in an Uncertain World: The Psychology of Judgement and Decision Making",
+        "description": "In the Second Edition of Rational Choice in an Uncertain World the authors compare the basic principles of rationality with actual behaviour in making decisions. They describe theories and research findings from the field of judgment and decision making in a non-technical manner, using anecdotes as a teaching device. Intended as an introductory textbook for advanced undergraduate and graduate students, the material not only is of scholarly interest but is practical as well. The Second Edition includes: - more coverage on the role of emotions, happiness, and general well-being in decisions - a summary of the new research on the neuroscience of decision processes - more discussion of the adaptive value of (non-rational heuristics) - expansion of the graphics for decision trees, probability trees, and Venn diagrams.",
+        "authors": [
+            "Reid Hastie, Robyn M. Dawes"
+        ],
+        "categories": [
+            "Psychology"
+        ],
+        "publishedYear": 2010,
+        "book_id": 197323
+    },
+    {
+        "book_title": "Capital appreciation in the stock market;: A handbook of sophisticated analysis techniques",
+        "authors": [
+            "Gordon A. Holmes"
+        ],
+        "publishedYear": 1969,
+        "book_id": 42783
+    },
+    {
+        "book_title": "Linux System Administration White Papers: A Compilation of Technical Documents for System Administrators",
+        "description": "For more than 20 years, Network World has been the premier provider of information, intelligence and insight for network and IT executives responsible for the digital nervous systems of large organizations. Readers are responsible for designing, implementing and managing the voice, data and video systems their companies use to support everything from business critical applications to employee collaboration and electronic commerce.",
+        "publishedYear": 2001,
+        "book_id": 10427
+    },
+    {
+        "book_title": "The Wordsworth Dictionary of Science and Technology (Wordsworth Collection)",
+        "description": "This volume is a reference for scientists, technologists, researchers, students and the general reader. It contains 45,000 entries covering 100 fields of activity embracing every strand of scientific and technological knowledge.",
+        "authors": [
+            "P. M. B. Walker"
+        ],
+        "categories": [
+            "Science"
+        ],
+        "publishedYear": 1995,
+        "book_id": 36832
+    },
+    {
+        "book_title": "Managing Knowledge: A Practical Web-Based Approach (Addison-Wesley Information Technology)",
+        "description": "Knowledge management is a hot topic in the modern corporate world and this unique, practical book helps managers utilize corporate information to achieve real gains in productivity and profitability.",
+        "authors": [
+            "Wayne Applehans, Alden Globe, Greg Laugero"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1999,
+        "book_id": 51476
+    },
+    {
+        "book_title": "The Gentle Art Of Mathematics",
+        "description": "This lighthearted work uses a variety of practical applications and puzzles to take a look at today's mathematical trends. In nine chapters, Professor Pedoe covers mathematical games, chance and choice, automatic thinking, and more.",
+        "authors": [
+            "Dan Pedoe"
+        ],
+        "categories": [
+            "Science"
+        ],
+        "publishedYear": 2012,
+        "book_id": 138674
+    },
+    {
+        "book_title": "Developmental Exercises to Accompany Rules for Writers",
+        "authors": [
+            "Diana Hacker"
+        ],
+        "categories": [
+            "Language Arts & Disciplines"
+        ],
+        "publishedYear": 2007,
+        "book_id": 44659
+    },
+    {
+        "book_title": "Variational Object-Oriented Programming Beyond Classes and Inheritance (The Springer International Series in Engineering and Computer Science)",
+        "description": "Purpose of the Book This book presents an approach to improve the standard object-oriented pro gramming model. The proposal is aimed at supporting a larger range of incre mental behavior variations and thus promises to be more effective in mastering the complexity of today's software. The ability of dealing with the evolutionary nature of software is one of main merits of object-oriented data abstraction and inheritance. Object-orientation allows to organize software in a structured way by separating the description of different kinds of an abstract data type into different classes and loosely connecting them by the inheritance hierarchy. Due to this separation, the soft ware becomes free of conditional logics previously needed for distinguishing between different kinds of abstractions and can thus more easily be incremen tally extended to support new kinds of abstractions. In other words, classes and inheritance are means to properly model variations of behavior related to the existence of different kinds of an abstract data type. The support for extensi bility and reuse with respect to such kind-specific behavior variations is among the main reasons for the increasing popularity of object-oriented programming in the last two decades. However, this popularity does not prevent us from questioning the real effec tiveness of current object-oriented techniques in supporting incremental vari ations. In fact, this popularity makes a critical investigation of the variations that can actually be performed incrementally even more important.",
+        "authors": [
+            "Mira Mezini"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2013,
+        "book_id": 138607
+    },
+    {
+        "book_title": "Mastering and Using Microsoft Office XP: Introductory Course",
+        "description": "Part of the South-Western Computer Education Series, this text includes features that make learning easy and enjoyable - yet - challenging for learners. The text includes a wide range of learning experiences from activities with one or two commands to simulations and case studies that challenge and sharpen learners' problem-solving skills. This book is ideal for computer courses with learners who have varying abilities and previous computer experiences. The book covers Office XP Basics and the Internet, Word, Excel, Access. PowerPoint, Outlook, Publisher and FrontPage.",
+        "authors": [
+            "William R. Pasewark"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2001,
+        "book_id": 24255
+    }
+]

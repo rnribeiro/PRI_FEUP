@@ -1,0 +1,225 @@
+[
+    {
+        "book_title": "Experimenter Effects in Behavioral Research",
+        "authors": [
+            "Robert Rosenthal"
+        ],
+        "categories": [
+            "Psychology"
+        ],
+        "publishedYear": 1976,
+        "book_id": 169173
+    },
+    {
+        "book_title": "Cellular Automata Machines: A New Environment for Modeling (Scientific Computation)",
+        "description": "Theory of Computation -- Computation by Abstracts Devices.",
+        "authors": [
+            "Tommaso Toffoli, Norman Margolus"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 1987,
+        "book_id": 152496
+    },
+    {
+        "book_title": "Power of Impossible Thinking",
+        "description": "50,000 copies sold, now in paperback... If you can think impossible thoughts, then you can do impossible things!! The power of change: create new thinking for new solutions! Includes a new introduction demonstrating the \"power of impossible thinking,\" plus access to exclusive book summary and authors' interview at the book's companion Web site. The Power of Impossible Thinking is about getting better at making sense of what's going on around you so you can make decisions that respond to reality, not inaccurate or obsolete models of the world. This bestseller reveals how mental models stand between you and the truth and how to transform them into your biggest advantage! Learn how to develop new ways of seeing, when to change to a new model, how to swap amongst a portfolio of models, how to understand complex environments and how to do \"mind R and D,\" improving models through constant experimentation. Jerry Wind and Colin Crook review why it's so hard to change mental models and offer practical strategies for dismantling \"hardened missile silos\". Finally they show how to access models quickly through intuition, and assess the effectiveness of any mental model. Purchasers of this book gain access to audio summaries on a companion web site, along with a new half-hour interview with the authors.",
+        "authors": [
+            "Colin Cook, Yoram (Jerry) R. Wind"
+        ],
+        "categories": [
+            "Business & Economics"
+        ],
+        "publishedYear": 2006,
+        "book_id": 185017
+    },
+    {
+        "book_title": "Developing Creative and Critical Thinking",
+        "publishedYear": 0,
+        "book_id": 212175
+    },
+    {
+        "book_title": "Eureka!: Scientific Breakthroughs that Changed the World",
+        "description": "The common language of genius: Eureka! While the roads that lead to breakthrough scientific discovery canbe as varied and complex as the human mind, the moment of insightfor all scientists is remarkably similar. The word \"eureka!\",attributed to the ancient Greek mathematician Archimedes, has cometo express that universal moment of joy, wonder-and even shock-atdiscovering something entirely new. In this collection of twelvescientific stories, Leslie Alan Horvitz describes the drama ofsudden insight as experienced by a dozen distinct personalities,detailing discoveries both well known and obscure. From Darwin,Einstein, and the team of Watson and Crick to such lesser knownluminaries as fractal creator Mandelbrot and periodic tablemastermind Dmitri Medellev, Eureka! perfectly illustrates LouisPasteur's quip that chance favors the prepared mind. The book alsodescribes how amateur scientist Joseph Priestley stumbled onto theexistence of oxygen in the eighteenth century and how televisionpioneer Philo Farnsworth developed his idea for a TV screen whileplowing his family's Idaho farm.",
+        "authors": [
+            "Leslie Alan Horvitz"
+        ],
+        "categories": [
+            "Science"
+        ],
+        "publishedYear": 2002,
+        "book_id": 23750
+    },
+    {
+        "book_title": "Alexander's Book of Science Projects",
+        "authors": [
+            "Twain V. (Twain Vernon) Stasiuk"
+        ],
+        "categories": [
+            "Science projects Juvenile literature"
+        ],
+        "publishedYear": 1999,
+        "book_id": 42832
+    },
+    {
+        "book_title": "Automating UNIX and Linux Administration (The Expert's Voice)",
+        "description": "Wouldnt you like to automate the tedious daily tasks of system administration? Automating UNIX and Linux Administration will show you how, by exploring existing tools and offering real-world examples. Although some of the book is Linux-specific, most of the information applies to any UNIX system, including material on automating tasks across multiple variants of UNIX. Author Kirk Bauer briefly overviews tools and technologiesand assumes preliminary knowledge about editing a configuration file or mounting a file system. The techniques, methods, and tools in this book will help you manage a single systembut will prove especially powerful across multiple systems. No matter if the systems are desktops, servers, or Beowulf clustersall of them will benefit from this automation. And managing five to five thousand systems will become a simpler task!",
+        "authors": [
+            "Kirk Bauer"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2003,
+        "book_id": 123477
+    },
+    {
+        "book_title": "Critical Theory of Technology",
+        "description": "This pathbreaking book argues that the roots of the degradation of labor, education, and the environment lie not in technology per se but in the cultural values embodied in its design.",
+        "authors": [
+            "Andrew Feenberg, Associate Professor of Philosophy Andrew Feenberg"
+        ],
+        "categories": [
+            "Critical theory"
+        ],
+        "publishedYear": 1991,
+        "book_id": 1395
+    },
+    {
+        "book_title": "The analysis of mind, (Library of philosophy)",
+        "description": "An unabridged edition with updated footnotes and layout, to include: Recent Criticisms of \"Consciousness\" - Instinct and Habit - Desire and Feeling - Influence of Past History on Present Occurrences in Living Organisms - Psychological and Physical Causal Laws - Introspection - The Definition of Perception - Sensations and Images - Memory - Words and Meaning - General Ideas and Thought - Belief - Truth and Falsehood - Emotions and Will - Characteristics of Mental Phenomena",
+        "authors": [
+            "Bertrand Russell"
+        ],
+        "categories": [
+            "Consciousness"
+        ],
+        "publishedYear": 1921,
+        "book_id": 169031
+    },
+    {
+        "book_title": "Information Systems; Achieving Success By Avoiding Failure.",
+        "description": "Despite people\u2019s best efforts information systems areparticularly prone to failure. Some systems never materialize,others appear late and/or over budget and those that areimplemented often fail to deliver the promised levels ofperformance. The consequences of these failures affect peoplethroughout the organization concerned and beyond, sometimes to thepoint where they even threaten a company's future survival. Theyalso damage the companies that develop and supply such systems.Worse still, the same types of problems occur again and again; eventhe most exhaustive methods are not able to ensure success. This book aims to help all those people involved withinformation systems to break that repeating pattern of failure.Using real-life examples, it introduces a sophisticated approachbased around the notion of system to come to grips with the causesof actual and potential failure. It presents a model of a systemcapable of action without failure that can be used as a yardstickto judge existing and planned information systems and to suggestmeasures that need to be taken to achieve success. The examples used cover the public and the private sector andrange in size from a nationwide system run by central government toan organization employing around 220 people.",
+        "authors": [
+            "Joyce Fortune, Geoff Peters"
+        ],
+        "categories": [
+            "Business & Economics"
+        ],
+        "publishedYear": 2005,
+        "book_id": 30478
+    },
+    {
+        "book_title": "Refining Common Sense: Moving from Data to Information",
+        "description": "Designed to help educators collect and use data more effectively, this guide enables the reader to develop three tools to use in decision-making. 1.) A Data Notebook to capture the charts, notes, and agendas created during the process along with goals, questions, and process information. 2.) A Master Data Directory for compiling the data sources that are available in the district and school, and, 3.) The Information-Based Decision-Making Roadmap that contains all the finished documents that have been used to make decisions. In addition to developing a toolkit there is also a Testing Primer with basic standardized test information. The primer can be used as a stand-alone document and is specifically designed to assist the reader in using test data accurately when making decisions. Refining Common Sense will help educators: Develop a clear roadmap to answering questions about his/her goals, Collect data to answer questions, Turn data into information, Use information in decision-making. Written for teachers, principals, program directors, superintendents, board members, and other educators, the book also includes an accompanying CD with templates for all charts, and blank charts in the appendix for copying.",
+        "authors": [
+            "Vickie Williams Phelps, Elizabeth F. Warren"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "publishedYear": 2004,
+        "book_id": 74543
+    },
+    {
+        "book_title": "Evolution of International Society",
+        "authors": [
+            "Adam Watson"
+        ],
+        "categories": [
+            "Political Science"
+        ],
+        "publishedYear": 1992,
+        "book_id": 97958
+    },
+    {
+        "book_title": "Reflections on Gender and Science: Tenth Anniversary Paperback Edition",
+        "description": "We see girls and women everywhere using electronic devices; phones, tablets, laptops very proficiently, so what\u2019s the problem? It is a real, a serious and a long-standing issue. The number of girls entering and staying in computing education is still woefully low. Women are still not present at the centre of power where decisions are made determining how electronic equipment will develop. They are in reality mere users. Women in science and technology have always been pushed into the background by means of all sorts of ruses. The stories of how women scientists have suffered the same indignities since the 17th century: gender pay gaps, ridicule, sexist comments and being silenced make fascinating and relevant reading. And all this remains true in computing. RIGHTING THE WRONG looks again at the foundations of computing: mathematics, engineering and, arguably, science and shows how the masculinity of these still pervades computing education and the industry. This pervasiveness lays the groundwork for so much of the on-line abuse girls and women suffer. By drawing attention to the distant and more recent past Frances encourages readers to become more aware of what continues to this day; she urges them to challenge new developments and not to put up any longer with being silenced.",
+        "authors": [
+            "Frances Grundy"
+        ],
+        "categories": [
+            "Computers"
+        ],
+        "publishedYear": 2020,
+        "book_id": 62986
+    },
+    {
+        "book_title": "Authorware 5 Attain Authorized (2nd Edition)",
+        "description": "Vols. 8-10 of the 1965-1984 master cumulation constitute a title index.",
+        "categories": [
+            "Books"
+        ],
+        "publishedYear": 2003,
+        "book_id": 21160
+    },
+    {
+        "book_title": "Conditionally Human",
+        "authors": [
+            "Walter M. Miller (Jr.)"
+        ],
+        "categories": [
+            "Science fiction, American"
+        ],
+        "publishedYear": 1964,
+        "book_id": 14957
+    },
+    {
+        "book_title": "How to Figure the Odds",
+        "description": "This book presents not only the mathematical concept of probability, but also its philosophical aspects, the relativity of probability and its applications and even the psychology of probability. All explanations are made in a comprehensible manner and are supported with suggestive examples from nature and daily life, and even with challenging math paradoxes. (Mathematics)",
+        "authors": [
+            "Catalin Barboianu"
+        ],
+        "categories": [
+            "Games"
+        ],
+        "publishedYear": 2006,
+        "book_id": 66264
+    },
+    {
+        "book_title": "Inside C# (Microsoft Programming)",
+        "description": "This book has the same practical approach as the previous \"Stack Frames: A look from inside\" where the reader can find useful information on many of the topics addressed here. By focusing on the main subjects, it reviews some implementation details that are often overlooked or left out when studying the C language for the first time.This explains why there are so few chapters, which cover only the most important topics of the language and, often, long sections with poorly detailed definitions but rich with examples and tests to be carried out by the reader.Therefore, the book is addressed mainly to students who have already learned the language and wish to achieve a better understanding of it by observing how the source code is translated by compilers. It's a chance to explore a world so mysterious and exciting, whose importance is often undervalued.The trouble of looking at the assembly code and comparing it with the C source is amply repaid by the knowledge of how computers work and how to optimize code snippets that are responsible for slowing down the executable, assuming the proper algorithm and optimization options have already been chosen.The working environment will be a GNU operating system installed on a personal computer with a 64-bit x86 processor. The working tools will be two compilers (gcc, clang) and a debugger (gdb).",
+        "authors": [
+            "Giuseppe Di Cataldo"
+        ],
+        "publishedYear": 2017,
+        "book_id": 153439
+    },
+    {
+        "book_title": "Lingua ex Machina: Reconciling Darwin and Chomsky with the Human Brain",
+        "description": "A neuroscientist and a linguist show how evolution could have given rise to structured language. A machine for language? Certainly, say the neurophysiologists, busy studying the language specializations of the human brain and trying to identify their evolutionary antecedents. Linguists such as Noam Chomsky talk about machinelike \"modules\" in the brain for syntax, arguing that language is more an instinct (a complex behavior triggered by simple environmental stimuli) than an acquired skill like riding a bicycle. But structured language presents the same evolutionary problems as feathered forelimbs for flight: you need a lot of specializations to fly even a little bit. How do you get them, if evolution has no foresight and the intermediate stages do not have intermediate payoffs? Some say that the Darwinian scheme for gradual species self-improvement cannot explain our most valued human capability, the one that sets us so far above the apes, language itself. William Calvin and Derek Bickerton suggest that other evolutionary developments, not directly related to language, allowed language to evolve in a way that eventually promoted a Chomskian syntax. They compare these intermediate behaviors to the curb-cuts originally intended for wheelchair users. Their usefulness was soon discovered by users of strollers, shopping carts, rollerblades, and so on. The authors argue that reciprocal altruism and ballistic movement planning were \"curb-cuts\" that indirectly promoted the formation of structured language. Written in the form of a dialogue set in Bellagio, Italy, Lingua ex Machina presents an engaging challenge to those who view the human capacity for language as a winner-take-all war between Chomsky and Darwin.",
+        "authors": [
+            "William H. Calvin, Derek Bickerton"
+        ],
+        "categories": [
+            "Medical"
+        ],
+        "publishedYear": 2000,
+        "book_id": 210184
+    },
+    {
+        "book_title": "Action Learning: Images and Pathways (The Professional Practices in Adult Education and Lifelong Learning Series)",
+        "description": "In covering the essentials of action learning, this title returns to the basics and most powerful aspects of the subject. It is not a book of theory, but rather of practice. Application of action learning in a variety of settings is explored, with guides to programme design and how-to information.",
+        "authors": [
+            "Robert Lex Dilworth, Verna J. Willis"
+        ],
+        "categories": [
+            "Education"
+        ],
+        "publishedYear": 2003,
+        "book_id": 140208
+    },
+    {
+        "book_title": "Precipice",
+        "description": "This urgent and eye-opening book makes the case that protecting humanity's future is the central challenge of our time. If all goes well, human history is just beginning. Our species could survive for billions of years - enough time to end disease, poverty, and injustice, and to flourish in ways unimaginable today. But this vast future is at risk. With the advent of nuclear weapons, humanity entered a new age, where we face existential catastrophes - those from which we could never come back. Since then, these dangers have only multiplied, from climate change to engineered pathogens and artificial intelligence. If we do not act fast to reach a place of safety, it will soon be too late. Drawing on over a decade of research, The Precipice explores the cutting-edge science behind the risks we face. It puts them in the context of the greater story of humanity: showing how ending these risks is among the most pressing moral issues of our time. And it points the way forward, to the actions and strategies that can safeguard humanity. An Oxford philosopher committed to putting ideas into action, Toby Ord has advised the US National Intelligence Council, the UK Prime Minister's Office, and the World Bank on the biggest questions facing humanity. In The Precipice, he offers a startling reassessment of human history, the future we are failing to protect, and the steps we must take to ensure that our generation is not the last. \"A book that seems made for the present moment.\" \u2014New Yorker",
+        "authors": [
+            "Toby Ord"
+        ],
+        "categories": [
+            "Philosophy"
+        ],
+        "publishedYear": 2020,
+        "book_id": 164655
+    }
+]

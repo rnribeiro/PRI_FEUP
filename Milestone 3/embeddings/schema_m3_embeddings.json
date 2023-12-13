@@ -4,27 +4,44 @@
       "name": "text",
       "class": "solr.TextField",
       "indexAnalyzer": {
-        "tokenizer": { 
+        "tokenizer": {
           "class": "solr.StandardTokenizerFactory"
         },
         "filters": [
-          { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
-          { "class": "solr.LowerCaseFilterFactory" }
+          {
+            "class": "solr.ASCIIFoldingFilterFactory",
+            "preserveOriginal": true
+          },
+          {
+            "class": "solr.LowerCaseFilterFactory"
+          }
         ]
       },
       "queryAnalyzer": {
-        "tokenizer": { 
-          "class": "solr.StandardTokenizerFactory" 
+        "tokenizer": {
+          "class": "solr.StandardTokenizerFactory"
         },
         "filters": [
-          { "class": "solr.ASCIIFoldingFilterFactory", "preserveOriginal": true },
-          { "class": "solr.LowerCaseFilterFactory" }
+          {
+            "class": "solr.ASCIIFoldingFilterFactory",
+            "preserveOriginal": true
+          },
+          {
+            "class": "solr.LowerCaseFilterFactory"
+          }
         ]
       }
     },
     {
       "name": "int",
       "class": "solr.TrieIntField"
+    },
+    {
+      "name": "vector",
+      "class": "solr.DenseVectorField",
+      "vectorDimension": 384,
+      "similarityFunction": "cosine",
+      "knnAlgorithm": "hnsw"
     }
   ],
   "add-field": [
@@ -80,6 +97,12 @@
       "name": "text",
       "type": "text",
       "indexed": true
+    },
+    {
+      "name": "vector",
+      "type": "vector",
+      "indexed": true,
+      "stored": true
     }
   ]
 }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="search-container">
-      <input v-model="query" class="search-input" placeholder="Enter your search query" />
+      <input v-model="query" id="searchInput" name="searchQuery" class="search-input" placeholder="Enter your search query" />
       <button @click="search" class="search-button">Search</button>
     </div>
 
@@ -9,50 +9,65 @@
     <div v-if="searched" class="search-results">
       <h2 v-if="results.length > 0">Search Results</h2>
       <ul v-if="results.length > 0" class="book-list">
-        <a v-for="result in results" :key="result.id" :href="`/book-details/${result.id}`" class="book-item">
+        <div v-for="result in results" :key="result.book_id" class="book-item" @click="showBookDetails(result)">
           <div class="book-box">
             <h3 class="book-title">{{ result.book_title }}</h3>
             <!-- Add other book details -->
           </div>
-        </a>
+        </div>
       </ul>
       <p v-else class="no-results"></p>
     </div>
   </div>
+  <!-- Include the modal component -->
+  <Modal :selectedBook="selectedBook" :showModal="isModalVisible" @close="closeModal" />
 </template>
 
 <script>
 import axios from 'axios';
+import Modal from './BookPage.vue';
 
 export default {
+  components: {
+    Modal
+  },
   data() {
-    return {
-      query: '',
-      results: [],
-      searched: false,
-    };
+      return {
+        query: '',
+        results: [],
+        searched: false,
+        isModalVisible: false,
+        selectedBook: {}
+      };
   },
   methods: {
     search() {
-      this.searched = true;
-      axios.post('http://localhost:8000/solr/request', {
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Content-Type': 'application/json',
-        },
-        data: JSON.stringify({
-          params: {
-            q: this.query
-          }
+        this.searched = true;
+        axios.post('http://localhost:8000/solr/request', {
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Content-Type': 'application/json',
+            },
+            data: JSON.stringify({
+                params: {
+                    q: this.query
+                }
+            })
         })
-      })
-      .then(response => {
-        this.results = response.data.response.docs;
-      })
-      .catch(error => {
-        console.error('Error searching:', error);
-      });
+            .then(response => {
+            this.results = response.data.response.docs;
+        })
+            .catch(error => {
+            console.error('Error searching:', error);
+        });
     },
+    showBookDetails(book) {
+      this.selectedBook = book;
+      this.isModalVisible = true;
+    },
+    closeModal() {
+      this.isModalVisible = false;
+    }
   },
 };
 </script>
@@ -125,6 +140,9 @@ export default {
   padding: 0;
   margin: 0;
   list-style: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Remove list-style from each book item */
@@ -132,19 +150,10 @@ export default {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-/* Remove default list-style */
-.book-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-/* Remove default link styles */
-.book-item {
+  cursor: pointer; /* Set the cursor to pointer */
   text-decoration: none; /* Remove underline */
   color: inherit; /* Use parent's color */
 }
-
 /* Remove underlines specifically from h3 elements inside .book-box */
 .book-box h3 {
   text-decoration: none;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solr Search</title>
+</head>
+<body>
+    <h1>Solr Search</h1>
+    <form id="searchForm">
+        <label for="query">Enter your query:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Search</button>
+    </form>
+    <div id="results"></div>
+
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const query = document.getElementById('query').value;
+            fetch(`/search?query=${encodeURIComponent(query)}`)
+                .then(response => response.json())
+                .then(data => {
+                    const resultsDiv = document.getElementById('results');
+                    resultsDiv.innerHTML = '<h2>Search Results</h2>';
+                    if (data.length === 0) {
+                        resultsDiv.innerHTML += '<p>No results found.</p>';
+                    } else {
+                        data.forEach(result => {
+                            resultsDiv.innerHTML += `<p>${result.id} - ${result.title} [score: ${result.score.toFixed(2)}]</p>`;
+                        });
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

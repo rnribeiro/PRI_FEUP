@@ -76,6 +76,6 @@ export default {
   width: 70%; /* Set the desired width */
   height: 70%; /* Set the desired height */
   overflow: auto; /* Enable scrolling if content exceeds the set dimensions */
+  position: relative; /* Ensure relative positioning for absolutely positioned elements */
 }
-
 </style>

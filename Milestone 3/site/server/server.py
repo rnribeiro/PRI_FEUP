@@ -25,7 +25,6 @@ async def solr_request(request: Request):
         jsondata = await request.body()
         jsondata = json.loads(jsondata)
         params = json.loads(jsondata['data'])
-        print(jsondata)
         # Send a POST request to Solr
         response = requests.get(f"{SOLR_URL}/books_m2/select", params=params['params'])
         print(response)

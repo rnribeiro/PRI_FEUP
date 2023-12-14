@@ -50,7 +50,11 @@ export default {
             },
             data: JSON.stringify({
                 params: {
-                    q: this.query
+                    q: this.query,
+                    qf: "book_title^2 reviews.text^2 reviews.summary description categories",
+                    rows: 40,
+                    defType:"edismax",
+                    "q.op":"OR"
                 }
             })
         })

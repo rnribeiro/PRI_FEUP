@@ -1,5 +1,5 @@
 <template>
-  <div class="modal" v-if="showModal">
+  <div class="modal" v-if="showModal" @click.self="closeModal">
     <div class="modal-content">
       <!-- Book details -->
       <h2>{{ selectedBook.book_title }}</h2>
@@ -23,15 +23,14 @@
       <p v-if="selectedBook.publisher"><b>Publisher:</b> {{ selectedBook.publisher }}</p>
       <!-- Display Published Year -->
       <p v-if="selectedBook.publishedYear"><b>Published Year:</b> {{ selectedBook.publishedYear }}</p>
-      <!-- Display reviews summaries -->
-      <div v-if="selectedBook && selectedBook['reviews.summary']">
-        <p><b>Opinions:</b> {{ formatSummary(selectedBook['reviews.summary']) }}</p>
+      <!-- Display reviews summaries and texts -->
+      <div v-if="selectedBook && selectedBook['reviews.summary'] && selectedBook['reviews.text']">
+        <h2>Reviews</h2>
+        <div v-for="(summary, index) in selectedBook['reviews.summary']" :key="index">
+          <p><b>Summary:</b> {{ summary }}</p>
+          <p v-if="selectedBook['reviews.text'][index]"><b></b> {{ selectedBook['reviews.text'][index] }}</p>
+        </div>
       </div>
-      <div v-if="selectedBook && selectedBook['reviews.text']">
-        <p><b>Reviews:</b> {{ formatSummary(selectedBook['reviews.text']) }}</p>
-      </div>
-      <!-- Close icon in the top right corner -->
-      <span class="close-icon" @click="closeModal">Close</span>
     </div>
   </div>
 </template>
@@ -51,12 +50,6 @@ export default {
   methods: {
     closeModal() {
       this.$emit('close');
-    },
-    formatSummary(summaryArray) {
-      return summaryArray.join(', ');
-    },
-    formatText(textArray) {
-      return textArray.join(' ');
     }
   }
 };
@@ -85,8 +78,4 @@ export default {
   overflow: auto; /* Enable scrolling if content exceeds the set dimensions */
 }
 
-.close-icon {
-  cursor: pointer; /* Set the cursor to pointer */
-  color:#A3C9A8;
-}
 </style>

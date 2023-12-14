@@ -3,12 +3,33 @@
     <div class="modal-content">
       <!-- Book details -->
       <h2>{{ selectedBook.book_title }}</h2>
-      <p v-for="(author, index) in selectedBook.authors" :key="index"><b>Author:</b> {{ author }}</p>
-      <p v-for="(category, index) in selectedBook.categories" :key="index"><b>Genre:</b> {{ category }}</p>
-      <p><b>Description:</b> {{ selectedBook.description }}</p>
-      <p><b>Publisher:</b> {{ selectedBook.publisher }}</p>
-      <p><b>Published Year:</b> {{ selectedBook.publishedYear }}</p>
-      <!-- Add other book details here -->
+      <!-- Display Author(s) -->
+      <p v-if="selectedBook.authors && selectedBook.authors.length > 0">
+        <b>Author:</b>
+        <span v-for="(author, index) in selectedBook.authors" :key="index">
+          {{ author }}{{ index !== selectedBook.authors.length - 1 ? ', ' : '' }}
+        </span>
+      </p>
+      <!-- Display Genre(s) -->
+      <p v-if="selectedBook.categories && selectedBook.categories.length > 0">
+        <b>Genre:</b>
+        <span v-for="(category, index) in selectedBook.categories" :key="index">
+          {{ category }}{{ index !== selectedBook.categories.length - 1 ? ', ' : '' }}
+        </span>
+      </p>
+      <!-- Display Description -->
+      <p v-if="selectedBook.description"><b>Description:</b> {{ selectedBook.description }}</p>
+      <!-- Display Publisher -->
+      <p v-if="selectedBook.publisher"><b>Publisher:</b> {{ selectedBook.publisher }}</p>
+      <!-- Display Published Year -->
+      <p v-if="selectedBook.publishedYear"><b>Published Year:</b> {{ selectedBook.publishedYear }}</p>
+      <!-- Display reviews summaries -->
+      <div v-if="selectedBook && selectedBook['reviews.summary']">
+        <p><b>Opinions:</b> {{ formatSummary(selectedBook['reviews.summary']) }}</p>
+      </div>
+      <div v-if="selectedBook && selectedBook['reviews.text']">
+        <p><b>Reviews:</b> {{ formatSummary(selectedBook['reviews.text']) }}</p>
+      </div>
       <!-- Close icon in the top right corner -->
       <span class="close-icon" @click="closeModal">Close</span>
     </div>
@@ -30,6 +51,12 @@ export default {
   methods: {
     closeModal() {
       this.$emit('close');
+    },
+    formatSummary(summaryArray) {
+      return summaryArray.join(', ');
+    },
+    formatText(textArray) {
+      return textArray.join(' ');
     }
   }
 };
@@ -53,6 +80,9 @@ export default {
   background-color: white;
   padding: 20px;
   border-radius: 25px;
+  width: 70%; /* Set the desired width */
+  height: 70%; /* Set the desired height */
+  overflow: auto; /* Enable scrolling if content exceeds the set dimensions */
 }
 
 .close-icon {

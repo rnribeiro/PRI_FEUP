@@ -56,6 +56,7 @@ export default {
         })
             .then(response => {
             this.results = response.data.response.docs;
+            //console.log(this.results[0]["reviews.summary"]);
         })
             .catch(error => {
             console.error('Error searching:', error);
